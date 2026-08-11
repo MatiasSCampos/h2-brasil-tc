@@ -164,8 +164,14 @@ EXTENSOES_DADOS = (".xlsx", ".xls", ".csv", ".json")
 EXTENSOES_EXTRA = (".pdf",)
 BAIXAR_PDFS_TAMBEM = False
 
-MAX_PROFUNDIDADE_CRAWLER = 2
-MAX_PAGINAS_CRAWLER_POR_FONTE = 80
+# Antes: profundidade 2 e até 80 páginas por fonte — com ~10 fontes HTML
+# configuradas, isso podia visitar centenas de páginas no total (cada uma
+# com pausa de 1s + até 2 tentativas), deixando a coleta bem lenta. Reduzido
+# para ficar rápido, e com um limite de TEMPO (não só de páginas) como rede
+# de segurança extra contra sites que respondem devagar.
+MAX_PROFUNDIDADE_CRAWLER = 1
+MAX_PAGINAS_CRAWLER_POR_FONTE = 20
+TEMPO_MAXIMO_CRAWLER_POR_FONTE = 60  # segundos; interrompe a fonte se passar disso
 SEGUIR_LINKS_SEM_EXTENSAO = True
 
 CAMINHOS_RELEVANTES_CRAWLER = (
@@ -835,8 +841,16 @@ def buscar_em_pagina_html(nome_fonte: str, url_pagina: str):
     fila = [(url_pagina, 0)]
     visitadas = set()
     encontrados = 0
+    inicio = time.monotonic()
 
     while fila and len(visitadas) < MAX_PAGINAS_CRAWLER_POR_FONTE:
+        if time.monotonic() - inicio > TEMPO_MAXIMO_CRAWLER_POR_FONTE:
+            log.info(
+                f"  Limite de tempo ({TEMPO_MAXIMO_CRAWLER_POR_FONTE}s) atingido "
+                f"para '{nome_fonte}' — interrompendo esta fonte e seguindo em frente."
+            )
+            break
+
         url_atual, profundidade = fila.pop(0)
         url_atual = url_atual.split("#")[0].rstrip("/")
 
