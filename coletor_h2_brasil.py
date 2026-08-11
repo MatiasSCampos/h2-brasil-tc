@@ -1232,8 +1232,22 @@ def _producao_t_ano(valor):
 def gerar_base_h2v_multifonte():
     log.info("== Padronizando projetos H2V de todas as fontes coletadas ==")
     frames=[]
+    ignorados_infra = 0
     for item in ITENS_ENCONTRADOS:
         if not item.caminho_local: continue
+        # A EPE publica dezenas de camadas ArcGIS que são dados de REFERÊNCIA
+        # (Estados, Municípios, Resíduo por município, Bio_H2, Tot_H2 etc.),
+        # não projetos de hidrogênio propriamente ditos. Sem esse filtro, uma
+        # tabela como "Resíduo por município" (milhares de linhas) inflava a
+        # base inteira, já que suas colunas (Município/Local/UF) batem por
+        # acidente com os apelidos de localização de projeto. Só entram aqui
+        # as camadas da EPE cujo nome é literalmente "Projetos" — as demais
+        # fontes (IEA, ANEEL, EIA, HTML institucional) não são afetadas por
+        # esse filtro, pois presumivelmente já são listagens de projetos.
+        if item.fonte.startswith("EPE - "):
+            if normalizar_texto(_nome_da_camada(item.fonte)) != "projetos":
+                ignorados_infra += 1
+                continue
         caminho=Path(item.caminho_local)
         if not caminho.exists() or caminho.suffix.lower() not in ('.csv','.xlsx','.xls','.json'): continue
         try:
@@ -1264,6 +1278,8 @@ def gerar_base_h2v_multifonte():
             out['latitude']=out['latitude'].map(_numero_h2v); out['longitude']=out['longitude'].map(_numero_h2v)
             out=out[out[['nome_projeto','empresa_consorcio','localizacao_bruta','capacidade_mw','producao_t_ano']].notna().any(axis=1)]
             if not out.empty: frames.append(out)
+    if ignorados_infra:
+        log.info(f"  {ignorados_infra} camada(s) de referência/infraestrutura da EPE ignorada(s) (não são projetos).")
     if not frames:
         log.warning('  Nenhum projeto estruturado encontrado nas fontes coletadas.'); return None
     df=pd.concat(frames,ignore_index=True)
