@@ -1,0 +1,12 @@
+# Dados de trabalho do coletor (grandes, brutos, não precisam ir pro git —
+# só a pasta enxuta dados_api/ precisa, essa NÃO deve ser ignorada)
+dados_h2/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Scripts auxiliares de agendamento gerados localmente
+_rodar_coletor.cmd

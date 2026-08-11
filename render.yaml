@@ -1,0 +1,18 @@
+# Configuração de deploy no Render (opcional — "Blueprint").
+# Se preferir, você pode simplesmente configurar tudo manualmente no site do
+# Render (recomendado para a primeira vez, ver README_API.md passo a passo).
+# Este arquivo serve para deploys futuros mais rápidos, via "New +" > "Blueprint".
+
+services:
+  - type: web
+    name: coletor-h2-brasil-api
+    runtime: python
+    plan: free
+    buildCommand: "pip install -r requirements-api.txt"
+    startCommand: "uvicorn api_hub:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: DADOS_API_DIR
+        value: dados_api
+      - key: API_ADMIN_KEY
+        sync: false   # defina o valor manualmente no painel do Render (não fica no git)
+    autoDeploy: true  # redeploya sozinho a cada git push na branch principal
