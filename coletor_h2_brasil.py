@@ -227,14 +227,6 @@ PASTA_HISTORICO = PASTA_SAIDA / "historico"
 # acompanhar como a base evolui semana a semana) e começa a coleta do zero.
 ARQUIVAR_EXECUCAO_ANTERIOR = True
 
-# --- Geocodificação (Nominatim/OpenStreetMap) -----------------------------
-# API gratuita e sem chave, mas com política de uso rígida: 1 requisição por
-# segundo e User-Agent identificável (já configurado em HEADERS). Só é usada
-# para preencher latitude/longitude de projetos que ainda não têm coordenada.
-NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
-GEOCODIFICAR_PROJETOS_SEM_COORDENADA = True
-PAUSA_GEOCODIFICACAO = 1.1  # segundos entre chamadas (política do Nominatim)
-
 # --- Fontes que são SPAs em JavaScript (candidatas ao Selenium opcional) --
 FONTES_SPA_JAVASCRIPT = {
     "CCEE - Dados Abertos",
@@ -1614,78 +1606,6 @@ def calcular_lcoh_referencia(fator_capacidade: float = FATOR_CAPACIDADE_PADRAO):
 
 
 # --------------------------------------------------------------------------
-# GEOCODIFICAÇÃO (Nominatim/OpenStreetMap) — preenche lat/long ausentes
-# --------------------------------------------------------------------------
-
-def _geocodificar_endereco(texto_local: str) -> tuple[float, float] | None:
-    """Consulta o Nominatim para um texto de localização livre (ex.: 'Pecém/CE').
-    Retorna (latitude, longitude) ou None se não encontrar/der erro."""
-    if not texto_local or not str(texto_local).strip():
-        return None
-
-    consulta = f"{texto_local}, Brasil"
-    try:
-        resp = requests.get(
-            NOMINATIM_URL,
-            params={"q": consulta, "format": "json", "limit": 1, "countrycodes": "br"},
-            headers=HEADERS,  # Nominatim exige um User-Agent identificável
-            timeout=TIMEOUT,
-        )
-        resp.raise_for_status()
-        resultados = resp.json()
-    except (requests.RequestException, ValueError):
-        return None
-
-    if not resultados:
-        return None
-
-    try:
-        return float(resultados[0]["lat"]), float(resultados[0]["lon"])
-    except (KeyError, ValueError, TypeError):
-        return None
-
-
-def geocodificar_projetos(df: pd.DataFrame) -> pd.DataFrame:
-    """Preenche latitude/longitude de linhas que ainda não têm coordenada,
-    usando o texto livre de localização (localizacao_bruta, ou
-    cidade_porto_hub/estado_regiao como reserva) via Nominatim/OSM."""
-    if not GEOCODIFICAR_PROJETOS_SEM_COORDENADA or df is None or df.empty:
-        return df
-
-    if "latitude" not in df.columns or "longitude" not in df.columns:
-        return df
-
-    faltando = df[df["latitude"].isna() | df["longitude"].isna()]
-    if faltando.empty:
-        log.info("== Geocodificação: todos os registros já têm coordenadas ==")
-        return df
-
-    log.info(f"== Geocodificando {len(faltando)} projeto(s) sem latitude/longitude ==")
-    df = df.copy()
-    geocodificados = 0
-
-    for idx in faltando.index:
-        candidatos_endereco = [
-            df.at[idx, "localizacao_bruta"] if "localizacao_bruta" in df.columns else None,
-            df.at[idx, "cidade_porto_hub"] if "cidade_porto_hub" in df.columns else None,
-            df.at[idx, "estado_regiao"] if "estado_regiao" in df.columns else None,
-        ]
-        endereco = next((c for c in candidatos_endereco if c and str(c).strip()), None)
-        if not endereco:
-            continue
-
-        coordenada = _geocodificar_endereco(str(endereco))
-        time.sleep(PAUSA_GEOCODIFICACAO)  # respeita o limite de 1 req/s do Nominatim
-
-        if coordenada:
-            df.at[idx, "latitude"], df.at[idx, "longitude"] = coordenada
-            geocodificados += 1
-
-    log.info(f"  {geocodificados}/{len(faltando)} projeto(s) geocodificado(s) com sucesso.")
-    return df
-
-
-# --------------------------------------------------------------------------
 # VALIDAÇÃO COMPARATIVA ENTRE FONTES (Seção 3.7 / 4.3 do TCC)
 # --------------------------------------------------------------------------
 
@@ -2123,15 +2043,13 @@ def main():
 
     # Base ampla (heurística de alias de colunas, varre TODOS os arquivos
     # baixados de TODAS as fontes) — é essa que alimenta a resolução de
-    # entidades, geocodificação e validações a partir de agora.
+    # entidades e validações a partir de agora.
     df_h2v = gerar_base_h2v_multifonte()
     gerar_modelo_estrela_h2v(df_h2v)
 
     df_dedup = resolver_entidades(df_h2v)
 
     if df_dedup is not None and not df_dedup.empty:
-        df_dedup = geocodificar_projetos(df_dedup)
-        # Reescreve o arquivo já com as coordenadas geocodificadas preenchidas
         df_dedup.to_excel(PASTA_SAIDA / "base_projetos_deduplicada.xlsx", index=False)
 
         gerar_relatorio_validacao_comparativa(df_dedup)
