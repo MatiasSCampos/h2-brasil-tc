@@ -16,6 +16,12 @@ DADOS_API_DIR = Path(os.environ.get("DADOS_API_DIR", "dados_api"))
 ARQUIVO_PROJETOS = DADOS_API_DIR / "base_projetos_deduplicada.xlsx"
 ARQUIVO_LCOH = DADOS_API_DIR / "lcoh_projecao_brasil.xlsx"
 
+# Pasta genérica de tabelas extras (modelo estrela, validação, qualidade):
+# qualquer .csv colocado aqui vira automaticamente um endpoint /tabelas/{nome}
+# — não precisa mexer no código da API para adicionar uma tabela nova, só
+# atualizar o preparar_dados_api.py para copiar o arquivo pra cá.
+PASTA_TABELAS_EXTRAS = DADOS_API_DIR / "tabelas"
+
 CHAVE_ADMIN = os.environ.get("API_ADMIN_KEY", "")
 
 
@@ -100,6 +106,7 @@ def carregar_dados():
 @app.on_event("startup")
 def ao_iniciar():
     DADOS_API_DIR.mkdir(parents=True, exist_ok=True)
+    PASTA_TABELAS_EXTRAS.mkdir(parents=True, exist_ok=True)
     carregar_dados()
 
 
@@ -113,17 +120,52 @@ def raiz():
             "/projetos",
             "/projetos/{id_projeto}",
             "/lcoh",
-            "/estatisticas"
+            "/estatisticas",
+            "/tabelas",
+            "/tabelas/{nome}",
         ],
     }
 
 
+@app.get("/tabelas", tags=["Tabelas extras"])
+def listar_tabelas():
+    """Lista as tabelas extras disponíveis (modelo estrela, validação,
+    qualidade dos dados) — cada uma é um arquivo .csv em dados_api/tabelas/,
+    copiado para lá pelo preparar_dados_api.py."""
+    if not PASTA_TABELAS_EXTRAS.exists():
+        return {"tabelas": []}
+
+    nomes = sorted(p.stem for p in PASTA_TABELAS_EXTRAS.glob("*.csv"))
+    return {"total": len(nomes), "tabelas": nomes}
+
+
+@app.get("/tabelas/{nome}", tags=["Tabelas extras"])
+def obter_tabela(nome: str):
+    """Retorna o conteúdo de uma tabela extra (ver /tabelas para a lista de
+    nomes disponíveis) — ex.: /tabelas/fato_projetos_h2v, /tabelas/dim_estados."""
+    caminho = PASTA_TABELAS_EXTRAS / f"{nome}.csv"
+    if not caminho.exists():
+        raise HTTPException(
+            status_code=404,
+            detail=f"Tabela '{nome}' não encontrada. Veja /tabelas para a lista de nomes disponíveis.",
+        )
+
+    try:
+        df = pd.read_csv(caminho)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Falha ao ler a tabela '{nome}': {e}")
+
+    return {"total": len(df), "resultados": _df_para_json(df)}
+
+
 @app.get("/health", tags=["Info"])
 def health():
+    tabelas_extras = sorted(p.stem for p in PASTA_TABELAS_EXTRAS.glob("*.csv")) if PASTA_TABELAS_EXTRAS.exists() else []
     return {
         "status": "ok",
         "projetos_carregados": len(_estado["df_projetos"]),
         "linhas_lcoh_carregadas": len(_estado["df_lcoh"]),
+        "tabelas_extras_disponiveis": tabelas_extras,
         "dados_atualizados_em": _estado["carregado_em"],
     }
 
