@@ -1,17 +1,905 @@
 ﻿bloco,indice_a,nome_a,fonte_a,indice_b,nome_b,fonte_b,similaridade,fundido
-rio ,0, UFRJ,EPE - H2_PROJETOS_202410 - Projetos,30, UFRJ,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
-port,1,Fortescue,EPE - H2_PROJETOS_202410 - Projetos,31,Fortescue,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
-port,12,Enegix,EPE - H2_PROJETOS_202410 - Projetos,42,Enegix,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
-port,11,Fortrescue,EPE - H2_PROJETOS_202410 - Projetos,41,Fortrescue,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
-port,13,EDP,EPE - H2_PROJETOS_202410 - Projetos,43,EDP,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
-espi,3,Porto Central,EPE - H2_PROJETOS_202410 - Projetos,33,Porto Central,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
-suap,2,Qair,EPE - H2_PROJETOS_202410 - Projetos,32,Qair,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
 port,16,White Martins,EPE - H2_PROJETOS_202410 - Projetos,21,White Martins,EPE - H2_PROJETOS_202410 - Projetos,1.0,True
-cama,9,Unigel,EPE - H2_PROJETOS_202410 - Projetos,39,Unigel,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
-fort,7,Neoenergia,EPE - H2_PROJETOS_202410 - Projetos,37,Neoenergia,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
 angr,10,Angra I e II,EPE - H2_PROJETOS_202410 - Projetos,40,Angra I e II,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
 sao ,4,Porto de Santos,EPE - H2_PROJETOS_202410 - Projetos,34,Porto de Santos,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
+fort,7,Neoenergia,EPE - H2_PROJETOS_202410 - Projetos,37,Neoenergia,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
+cama,9,Unigel,EPE - H2_PROJETOS_202410 - Projetos,39,Unigel,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
+suap,2,Qair,EPE - H2_PROJETOS_202410 - Projetos,32,Qair,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
+espi,3,Porto Central,EPE - H2_PROJETOS_202410 - Projetos,33,Porto Central,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
+sem_bloco,794,Pacifico Mascarenhas,EPE - Projetos_Onshore - Projetos_Onshore1,795,Pacífico Mascarenhas,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,837,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,1007,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,847,Itumbiara,EPE - Projetos_Onshore - Projetos_Onshore1,850,Itumbiara,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,841,Dourados,EPE - Projetos_Onshore - Projetos_Onshore1,991,Dourados,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,838,Cachoeira Dourada,EPE - Projetos_Onshore - Projetos_Onshore1,839,Cachoeira Dourada,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+port,13,EDP,EPE - H2_PROJETOS_202410 - Projetos,43,EDP,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
+sem_bloco,596,Cajuru,EPE - Projetos_Onshore - Projetos_Onshore1,710,Cajuru,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,616,Funil,EPE - Projetos_Onshore - Projetos_Onshore1,978,Funil,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,607,Ilhéus,EPE - Projetos_Onshore - Projetos_Onshore1,1014,Ilhéus,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,659,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,1007,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,659,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,837,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,648,Rosal,EPE - Projetos_Onshore - Projetos_Onshore1,649,Rosal,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,739,Volta Grande,EPE - Projetos_Onshore - Projetos_Onshore1,743,Volta Grande,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,737,São Domingos,EPE - Projetos_Onshore - Projetos_Onshore1,1032,São Domingos,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,627,São Domingos,EPE - Projetos_Onshore - Projetos_Onshore1,1032,São Domingos,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,682,Salto,EPE - Projetos_Onshore - Projetos_Onshore1,820,Salto,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,627,São Domingos,EPE - Projetos_Onshore - Projetos_Onshore1,737,São Domingos,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+port,1,Fortescue,EPE - H2_PROJETOS_202410 - Projetos,31,Fortescue,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
+sem_bloco,143,Guaporé,EPE - Projetos_Onshore - Projetos_Onshore1,940,Guaporé,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,157,Santo Antônio,EPE - Projetos_Onshore - Projetos_Onshore1,194,Santo Antônio,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,157,Santo Antônio,EPE - Projetos_Onshore - Projetos_Onshore1,622,Santo Antônio,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,160,Bom Jardim,EPE - Projetos_Onshore - Projetos_Onshore1,492,Bom Jardim,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,462,Funil,EPE - Projetos_Onshore - Projetos_Onshore1,978,Funil,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,473,São João,EPE - Projetos_Onshore - Projetos_Onshore1,654,São João,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,400,Boa Vista,EPE - Projetos_Onshore - Projetos_Onshore1,834,Boa Vista,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,462,Funil,EPE - Projetos_Onshore - Projetos_Onshore1,616,Funil,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,381,Santa Terezinha,EPE - Projetos_Onshore - Projetos_Onshore1,481,Santa Terezinha,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,334,Santa Clara,EPE - Projetos_Onshore - Projetos_Onshore1,863,Santa Clara,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,328,Barra,EPE - Projetos_Onshore - Projetos_Onshore1,371,Barra,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,180,Volta Grande,EPE - Projetos_Onshore - Projetos_Onshore1,739,Volta Grande,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,194,Santo Antônio,EPE - Projetos_Onshore - Projetos_Onshore1,622,Santo Antônio,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,298,Salto,EPE - Projetos_Onshore - Projetos_Onshore1,682,Salto,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,298,Salto,EPE - Projetos_Onshore - Projetos_Onshore1,820,Salto,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,302,São Domingos,EPE - Projetos_Onshore - Projetos_Onshore1,627,São Domingos,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,302,São Domingos,EPE - Projetos_Onshore - Projetos_Onshore1,737,São Domingos,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,302,São Domingos,EPE - Projetos_Onshore - Projetos_Onshore1,1032,São Domingos,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,316,Rio Vermelho,EPE - Projetos_Onshore - Projetos_Onshore1,568,Rio Vermelho,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,227,São Sebastião,EPE - Projetos_Onshore - Projetos_Onshore1,576,São Sebastião,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+port,11,Fortrescue,EPE - H2_PROJETOS_202410 - Projetos,41,Fortrescue,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
+rio ,0, UFRJ,EPE - H2_PROJETOS_202410 - Projetos,30, UFRJ,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
+port,12,Enegix,EPE - H2_PROJETOS_202410 - Projetos,42,Enegix,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
+sem_bloco,180,Volta Grande,EPE - Projetos_Onshore - Projetos_Onshore1,743,Volta Grande,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,181,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,779,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,173,São José,EPE - Projetos_Onshore - Projetos_Onshore1,373,São José,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,133,Cambará,EPE - Projetos_Onshore - Projetos_Onshore1,910,Cambará,EPE - Projetos_Onshore - Projetos_Onshore1,1.0,True
+sem_bloco,85,Corredor do Senandes III,EPE - Projetos_Onshore - Projetos_Onshore1,86,Corredor do Senandes II,EPE - Projetos_Onshore - Projetos_Onshore1,0.9583,True
+sem_bloco,86,Corredor do Senandes II,EPE - Projetos_Onshore - Projetos_Onshore1,87,Corredor do Senandes IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.9565,True
+sem_bloco,823,Amador Aguiar I (Antiga Capim Branco I),EPE - Projetos_Onshore - Projetos_Onshore1,833,Amador Aguiar II (Antiga Capim Branco II),EPE - Projetos_Onshore - Projetos_Onshore1,0.9512,True
+sem_bloco,77,Aura Mangueira XIII,EPE - Projetos_Onshore - Projetos_Onshore1,78,Aura Mangueira XII,EPE - Projetos_Onshore - Projetos_Onshore1,0.9474,True
+sem_bloco,73,Aura Mangueira VII,EPE - Projetos_Onshore - Projetos_Onshore1,80,Aura Mangueira XVII,EPE - Projetos_Onshore - Projetos_Onshore1,0.9474,True
+sem_bloco,671,Pereira Barreto II,EPE - Projetos_Onshore - Projetos_Onshore1,672,Pereira Barreto III,EPE - Projetos_Onshore - Projetos_Onshore1,0.9474,True
+sem_bloco,1023,Aura Tanque Novo 02,EPE - Projetos_Onshore - Projetos_Onshore1,1028,Aura Tanque Novo 03,EPE - Projetos_Onshore - Projetos_Onshore1,0.9474,True
+sem_bloco,1026,Aura Tanque Novo 01,EPE - Projetos_Onshore - Projetos_Onshore1,1028,Aura Tanque Novo 03,EPE - Projetos_Onshore - Projetos_Onshore1,0.9474,True
+sem_bloco,77,Aura Mangueira XIII,EPE - Projetos_Onshore - Projetos_Onshore1,80,Aura Mangueira XVII,EPE - Projetos_Onshore - Projetos_Onshore1,0.9474,True
+sem_bloco,1023,Aura Tanque Novo 02,EPE - Projetos_Onshore - Projetos_Onshore1,1026,Aura Tanque Novo 01,EPE - Projetos_Onshore - Projetos_Onshore1,0.9474,True
+sem_bloco,78,Aura Mangueira XII,EPE - Projetos_Onshore - Projetos_Onshore1,80,Aura Mangueira XVII,EPE - Projetos_Onshore - Projetos_Onshore1,0.9474,True
+sem_bloco,74,Aura Mangueira XI,EPE - Projetos_Onshore - Projetos_Onshore1,78,Aura Mangueira XII,EPE - Projetos_Onshore - Projetos_Onshore1,0.9444,True
+sem_bloco,73,Aura Mangueira VII,EPE - Projetos_Onshore - Projetos_Onshore1,78,Aura Mangueira XII,EPE - Projetos_Onshore - Projetos_Onshore1,0.9444,True
+sem_bloco,670,Pereira Barreto I,EPE - Projetos_Onshore - Projetos_Onshore1,671,Pereira Barreto II,EPE - Projetos_Onshore - Projetos_Onshore1,0.9444,True
+sem_bloco,670,Pereira Barreto I,EPE - Projetos_Onshore - Projetos_Onshore1,673,Pereira Barreto IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.9444,True
+sem_bloco,673,Pereira Barreto IV,EPE - Projetos_Onshore - Projetos_Onshore1,675,Pereira Barreto V,EPE - Projetos_Onshore - Projetos_Onshore1,0.9444,True
+sem_bloco,671,Pereira Barreto II,EPE - Projetos_Onshore - Projetos_Onshore1,673,Pereira Barreto IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.9444,True
+sem_bloco,73,Aura Mangueira VII,EPE - Projetos_Onshore - Projetos_Onshore1,83,Aura Mangueira VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.9444,True
+sem_bloco,670,Pereira Barreto I,EPE - Projetos_Onshore - Projetos_Onshore1,675,Pereira Barreto V,EPE - Projetos_Onshore - Projetos_Onshore1,0.9412,True
+sem_bloco,74,Aura Mangueira XI,EPE - Projetos_Onshore - Projetos_Onshore1,75,Aura Mangueira XV,EPE - Projetos_Onshore - Projetos_Onshore1,0.9412,True
+sem_bloco,102,Fazenda Rosário 3,EPE - Projetos_Onshore - Projetos_Onshore1,104,Fazenda Rosário 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.9412,True
+sem_bloco,74,Aura Mangueira XI,EPE - Projetos_Onshore - Projetos_Onshore1,83,Aura Mangueira VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.9412,True
+sem_bloco,75,Aura Mangueira XV,EPE - Projetos_Onshore - Projetos_Onshore1,82,Aura Mangueira IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.9412,True
+sem_bloco,757,Água Vermelha V,EPE - Projetos_Onshore - Projetos_Onshore1,759,Água Vermelha VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.9375,True
+sem_bloco,754,Água Vermelha IV,EPE - Projetos_Onshore - Projetos_Onshore1,757,Água Vermelha V,EPE - Projetos_Onshore - Projetos_Onshore1,0.9375,True
+sem_bloco,497,Santa Cândida I,EPE - Projetos_Onshore - Projetos_Onshore1,498,Santa Cândida II,EPE - Projetos_Onshore - Projetos_Onshore1,0.9375,True
+sem_bloco,182,Rio do Poncho II,EPE - Projetos_Onshore - Projetos_Onshore1,184,Rio do Poncho I,EPE - Projetos_Onshore - Projetos_Onshore1,0.9375,True
+sem_bloco,161,Rio Palmeiras I,EPE - Projetos_Onshore - Projetos_Onshore1,162,Rio Palmeiras II,EPE - Projetos_Onshore - Projetos_Onshore1,0.9375,True
+sem_bloco,1005,Cristalândia III,EPE - Projetos_Onshore - Projetos_Onshore1,1008,Cristalândia II,EPE - Projetos_Onshore - Projetos_Onshore1,0.9375,True
+sem_bloco,1025,Aura Caetité 04,EPE - Projetos_Onshore - Projetos_Onshore1,1029,Aura Caetité 02,EPE - Projetos_Onshore - Projetos_Onshore1,0.9333,True
+sem_bloco,89,REB Cassino II,EPE - Projetos_Onshore - Projetos_Onshore1,90,REB Cassino III,EPE - Projetos_Onshore - Projetos_Onshore1,0.9333,True
+sem_bloco,1027,Aura Caetité 03,EPE - Projetos_Onshore - Projetos_Onshore1,1029,Aura Caetité 02,EPE - Projetos_Onshore - Projetos_Onshore1,0.9333,True
+sem_bloco,1025,Aura Caetité 04,EPE - Projetos_Onshore - Projetos_Onshore1,1027,Aura Caetité 03,EPE - Projetos_Onshore - Projetos_Onshore1,0.9333,True
+sem_bloco,97,Cerro Chato II,EPE - Projetos_Onshore - Projetos_Onshore1,99,Cerro Chato III,EPE - Projetos_Onshore - Projetos_Onshore1,0.9333,True
+sem_bloco,1025,Aura Caetité 04,EPE - Projetos_Onshore - Projetos_Onshore1,1031,Aura Caetité 01,EPE - Projetos_Onshore - Projetos_Onshore1,0.9333,True
+sem_bloco,1029,Aura Caetité 02,EPE - Projetos_Onshore - Projetos_Onshore1,1031,Aura Caetité 01,EPE - Projetos_Onshore - Projetos_Onshore1,0.9333,True
+sem_bloco,1027,Aura Caetité 03,EPE - Projetos_Onshore - Projetos_Onshore1,1031,Aura Caetité 01,EPE - Projetos_Onshore - Projetos_Onshore1,0.9333,True
+sem_bloco,1008,Cristalândia II,EPE - Projetos_Onshore - Projetos_Onshore1,1010,Cristalândia I,EPE - Projetos_Onshore - Projetos_Onshore1,0.9333,True
+sem_bloco,718,Pedranópolis 3,EPE - Projetos_Onshore - Projetos_Onshore1,719,Pedranópolis 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.9286,True
+sem_bloco,718,Pedranópolis 3,EPE - Projetos_Onshore - Projetos_Onshore1,720,Pedranópolis 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.9286,True
+sem_bloco,592,Rio Vermelho 2,EPE - Projetos_Onshore - Projetos_Onshore1,595,Rio Vermelho 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.9286,True
+sem_bloco,903,Francisco Sá 1,EPE - Projetos_Onshore - Projetos_Onshore1,904,Francisco Sá 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.9286,True
+sem_bloco,97,Cerro Chato II,EPE - Projetos_Onshore - Projetos_Onshore1,98,Cerro Chato I,EPE - Projetos_Onshore - Projetos_Onshore1,0.9286,True
+sem_bloco,88,REB Cassino I,EPE - Projetos_Onshore - Projetos_Onshore1,89,REB Cassino II,EPE - Projetos_Onshore - Projetos_Onshore1,0.9286,True
+sem_bloco,904,Francisco Sá 2,EPE - Projetos_Onshore - Projetos_Onshore1,905,Francisco Sá 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.9286,True
+sem_bloco,719,Pedranópolis 1,EPE - Projetos_Onshore - Projetos_Onshore1,720,Pedranópolis 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.9286,True
+sem_bloco,903,Francisco Sá 1,EPE - Projetos_Onshore - Projetos_Onshore1,905,Francisco Sá 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.9286,True
+sem_bloco,120,Sangradouro 3,EPE - Projetos_Onshore - Projetos_Onshore1,123,Sangradouro 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.9231,True
+sem_bloco,76,Aura Mirim II,EPE - Projetos_Onshore - Projetos_Onshore1,79,Aura Mirim VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.9231,True
+sem_bloco,72,Aura Mirim IV,EPE - Projetos_Onshore - Projetos_Onshore1,76,Aura Mirim II,EPE - Projetos_Onshore - Projetos_Onshore1,0.9231,True
+sem_bloco,105,Atlântica II,EPE - Projetos_Onshore - Projetos_Onshore1,107,Atlântica IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.9167,True
+sem_bloco,85,Corredor do Senandes III,EPE - Projetos_Onshore - Projetos_Onshore1,87,Corredor do Senandes IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.9167,True
+sem_bloco,106,Atlântica I,EPE - Projetos_Onshore - Projetos_Onshore1,107,Atlântica IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.9167,True
+sem_bloco,105,Atlântica II,EPE - Projetos_Onshore - Projetos_Onshore1,106,Atlântica I,EPE - Projetos_Onshore - Projetos_Onshore1,0.9167,True
+sem_bloco,570,Santa Isabel,EPE - Projetos_Onshore - Projetos_Onshore1,697,Santa Izabel,EPE - Projetos_Onshore - Projetos_Onshore1,0.9167,True
+sem_bloco,107,Atlântica IV,EPE - Projetos_Onshore - Projetos_Onshore1,108,Atlântica V,EPE - Projetos_Onshore - Projetos_Onshore1,0.9167,True
+sem_bloco,282,Bandeirante,EPE - Projetos_Onshore - Projetos_Onshore1,389,Bandeirantes,EPE - Projetos_Onshore - Projetos_Onshore1,0.9167,True
+sem_bloco,817,Guimarania 1,EPE - Projetos_Onshore - Projetos_Onshore1,818,Guimarania 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.9167,True
+sem_bloco,779,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,900,Santa Marta,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,581,Panorama 05,EPE - Projetos_Onshore - Projetos_Onshore1,585,Panorama 01,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,583,Panorama 08,EPE - Projetos_Onshore - Projetos_Onshore1,585,Panorama 01,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,583,Panorama 08,EPE - Projetos_Onshore - Projetos_Onshore1,584,Panorama 04,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,580,Panorama 02,EPE - Projetos_Onshore - Projetos_Onshore1,583,Panorama 08,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,580,Panorama 02,EPE - Projetos_Onshore - Projetos_Onshore1,582,Panorama 07,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,578,Panorama 03,EPE - Projetos_Onshore - Projetos_Onshore1,582,Panorama 07,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,580,Panorama 02,EPE - Projetos_Onshore - Projetos_Onshore1,585,Panorama 01,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,580,Panorama 02,EPE - Projetos_Onshore - Projetos_Onshore1,581,Panorama 05,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,580,Panorama 02,EPE - Projetos_Onshore - Projetos_Onshore1,584,Panorama 04,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,577,Panorama 06,EPE - Projetos_Onshore - Projetos_Onshore1,583,Panorama 08,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,577,Panorama 06,EPE - Projetos_Onshore - Projetos_Onshore1,584,Panorama 04,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,577,Panorama 06,EPE - Projetos_Onshore - Projetos_Onshore1,585,Panorama 01,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,578,Panorama 03,EPE - Projetos_Onshore - Projetos_Onshore1,580,Panorama 02,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,106,Atlântica I,EPE - Projetos_Onshore - Projetos_Onshore1,108,Atlântica V,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,181,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,900,Santa Marta,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,65,Verace VIII,EPE - Projetos_Onshore - Projetos_Onshore1,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,65,Verace VIII,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,964,Corrupião 2,EPE - Projetos_Onshore - Projetos_Onshore1,977,Corrupião 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,238,Marombas II,EPE - Projetos_Onshore - Projetos_Onshore1,240,Marombas I,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,578,Panorama 03,EPE - Projetos_Onshore - Projetos_Onshore1,585,Panorama 01,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,578,Panorama 03,EPE - Projetos_Onshore - Projetos_Onshore1,584,Panorama 04,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,577,Panorama 06,EPE - Projetos_Onshore - Projetos_Onshore1,578,Panorama 03,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,578,Panorama 03,EPE - Projetos_Onshore - Projetos_Onshore1,581,Panorama 05,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,584,Panorama 04,EPE - Projetos_Onshore - Projetos_Onshore1,585,Panorama 01,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,582,Panorama 07,EPE - Projetos_Onshore - Projetos_Onshore1,585,Panorama 01,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,581,Panorama 05,EPE - Projetos_Onshore - Projetos_Onshore1,582,Panorama 07,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,582,Panorama 07,EPE - Projetos_Onshore - Projetos_Onshore1,583,Panorama 08,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,582,Panorama 07,EPE - Projetos_Onshore - Projetos_Onshore1,584,Panorama 04,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,581,Panorama 05,EPE - Projetos_Onshore - Projetos_Onshore1,584,Panorama 04,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,581,Panorama 05,EPE - Projetos_Onshore - Projetos_Onshore1,583,Panorama 08,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,577,Panorama 06,EPE - Projetos_Onshore - Projetos_Onshore1,580,Panorama 02,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,577,Panorama 06,EPE - Projetos_Onshore - Projetos_Onshore1,581,Panorama 05,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,577,Panorama 06,EPE - Projetos_Onshore - Projetos_Onshore1,582,Panorama 07,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,578,Panorama 03,EPE - Projetos_Onshore - Projetos_Onshore1,583,Panorama 08,EPE - Projetos_Onshore - Projetos_Onshore1,0.9091,True
+sem_bloco,874,Pirapora 5,EPE - Projetos_Onshore - Projetos_Onshore1,878,Pirapora 9,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,874,Pirapora 5,EPE - Projetos_Onshore - Projetos_Onshore1,877,Pirapora 7,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,874,Pirapora 5,EPE - Projetos_Onshore - Projetos_Onshore1,876,Pirapora 6,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,874,Pirapora 5,EPE - Projetos_Onshore - Projetos_Onshore1,875,Pirapora 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,872,Pirapora 3,EPE - Projetos_Onshore - Projetos_Onshore1,875,Pirapora 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,755,Boa Hora 3,EPE - Projetos_Onshore - Projetos_Onshore1,758,Boa Hora 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,756,Boa Hora 2,EPE - Projetos_Onshore - Projetos_Onshore1,758,Boa Hora 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,746,Cerradão 2,EPE - Projetos_Onshore - Projetos_Onshore1,747,Cerradão 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,873,Pirapora 4,EPE - Projetos_Onshore - Projetos_Onshore1,874,Pirapora 5,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,872,Pirapora 3,EPE - Projetos_Onshore - Projetos_Onshore1,878,Pirapora 9,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,859,Corumbá I,EPE - Projetos_Onshore - Projetos_Onshore1,902,Corumbá IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,872,Pirapora 3,EPE - Projetos_Onshore - Projetos_Onshore1,873,Pirapora 4,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,755,Boa Hora 3,EPE - Projetos_Onshore - Projetos_Onshore1,756,Boa Hora 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,872,Pirapora 3,EPE - Projetos_Onshore - Projetos_Onshore1,876,Pirapora 6,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,872,Pirapora 3,EPE - Projetos_Onshore - Projetos_Onshore1,877,Pirapora 7,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
 port,11,Fortrescue,EPE - H2_PROJETOS_202410 - Projetos,31,Fortescue,EPE - H2_PROJETOS_BIO - Projetos,0.9,True
-port,1,Fortescue,EPE - H2_PROJETOS_202410 - Projetos,41,Fortrescue,EPE - H2_PROJETOS_BIO - Projetos,0.9,True
-port,1,Fortescue,EPE - H2_PROJETOS_202410 - Projetos,11,Fortrescue,EPE - H2_PROJETOS_202410 - Projetos,0.9,True
+sem_bloco,44,Minuano I,EPE - Projetos_Onshore - Projetos_Onshore1,45,Minuano II,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
 port,31,Fortescue,EPE - H2_PROJETOS_BIO - Projetos,41,Fortrescue,EPE - H2_PROJETOS_BIO - Projetos,0.9,True
+port,1,Fortescue,EPE - H2_PROJETOS_202410 - Projetos,41,Fortrescue,EPE - H2_PROJETOS_BIO - Projetos,0.9,True
+sem_bloco,872,Pirapora 3,EPE - Projetos_Onshore - Projetos_Onshore1,874,Pirapora 5,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,873,Pirapora 4,EPE - Projetos_Onshore - Projetos_Onshore1,878,Pirapora 9,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,873,Pirapora 4,EPE - Projetos_Onshore - Projetos_Onshore1,877,Pirapora 7,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,873,Pirapora 4,EPE - Projetos_Onshore - Projetos_Onshore1,876,Pirapora 6,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,873,Pirapora 4,EPE - Projetos_Onshore - Projetos_Onshore1,875,Pirapora 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,890,Paracatu 4,EPE - Projetos_Onshore - Projetos_Onshore1,892,Paracatu 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,891,Paracatu 2,EPE - Projetos_Onshore - Projetos_Onshore1,893,Paracatu 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,891,Paracatu 2,EPE - Projetos_Onshore - Projetos_Onshore1,892,Paracatu 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,890,Paracatu 4,EPE - Projetos_Onshore - Projetos_Onshore1,893,Paracatu 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,918,Janaúba 14,EPE - Projetos_Onshore - Projetos_Onshore1,921,Janaúba 12,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,915,Janaúba 10,EPE - Projetos_Onshore - Projetos_Onshore1,921,Janaúba 12,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,915,Janaúba 10,EPE - Projetos_Onshore - Projetos_Onshore1,920,Janaúba 13,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,915,Janaúba 10,EPE - Projetos_Onshore - Projetos_Onshore1,918,Janaúba 14,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,915,Janaúba 10,EPE - Projetos_Onshore - Projetos_Onshore1,924,Janaúba 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,913,Janaúba 11,EPE - Projetos_Onshore - Projetos_Onshore1,920,Janaúba 13,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,913,Janaúba 11,EPE - Projetos_Onshore - Projetos_Onshore1,921,Janaúba 12,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,913,Janaúba 11,EPE - Projetos_Onshore - Projetos_Onshore1,915,Janaúba 10,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,913,Janaúba 11,EPE - Projetos_Onshore - Projetos_Onshore1,918,Janaúba 14,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,892,Paracatu 3,EPE - Projetos_Onshore - Projetos_Onshore1,893,Paracatu 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,913,Janaúba 11,EPE - Projetos_Onshore - Projetos_Onshore1,924,Janaúba 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,876,Pirapora 6,EPE - Projetos_Onshore - Projetos_Onshore1,877,Pirapora 7,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,875,Pirapora 2,EPE - Projetos_Onshore - Projetos_Onshore1,876,Pirapora 6,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,875,Pirapora 2,EPE - Projetos_Onshore - Projetos_Onshore1,877,Pirapora 7,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,875,Pirapora 2,EPE - Projetos_Onshore - Projetos_Onshore1,878,Pirapora 9,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,545,Canabrava,EPE - Projetos_Onshore - Projetos_Onshore1,1033,Cana Brava,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,876,Pirapora 6,EPE - Projetos_Onshore - Projetos_Onshore1,878,Pirapora 9,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,877,Pirapora 7,EPE - Projetos_Onshore - Projetos_Onshore1,878,Pirapora 9,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,890,Paracatu 4,EPE - Projetos_Onshore - Projetos_Onshore1,891,Paracatu 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,920,Janaúba 13,EPE - Projetos_Onshore - Projetos_Onshore1,924,Janaúba 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,918,Janaúba 14,EPE - Projetos_Onshore - Projetos_Onshore1,924,Janaúba 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,921,Janaúba 12,EPE - Projetos_Onshore - Projetos_Onshore1,924,Janaúba 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,918,Janaúba 14,EPE - Projetos_Onshore - Projetos_Onshore1,920,Janaúba 13,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,918,Janaúba 14,EPE - Projetos_Onshore - Projetos_Onshore1,919,Janaúba 4,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,921,Janaúba 12,EPE - Projetos_Onshore - Projetos_Onshore1,923,Janaúba 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,920,Janaúba 13,EPE - Projetos_Onshore - Projetos_Onshore1,921,Janaúba 12,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,920,Janaúba 13,EPE - Projetos_Onshore - Projetos_Onshore1,922,Janaúba 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+sem_bloco,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,0.9,True
+port,1,Fortescue,EPE - H2_PROJETOS_202410 - Projetos,11,Fortrescue,EPE - H2_PROJETOS_202410 - Projetos,0.9,True
+sem_bloco,74,Aura Mangueira XI,EPE - Projetos_Onshore - Projetos_Onshore1,80,Aura Mangueira XVII,EPE - Projetos_Onshore - Projetos_Onshore1,0.8947,True
+sem_bloco,74,Aura Mangueira XI,EPE - Projetos_Onshore - Projetos_Onshore1,77,Aura Mangueira XIII,EPE - Projetos_Onshore - Projetos_Onshore1,0.8947,True
+sem_bloco,663,Guarani Cruz Alta 2,EPE - Projetos_Onshore - Projetos_Onshore1,664,Guarani Cruz Alta,EPE - Projetos_Onshore - Projetos_Onshore1,0.8947,True
+sem_bloco,75,Aura Mangueira XV,EPE - Projetos_Onshore - Projetos_Onshore1,80,Aura Mangueira XVII,EPE - Projetos_Onshore - Projetos_Onshore1,0.8947,True
+sem_bloco,670,Pereira Barreto I,EPE - Projetos_Onshore - Projetos_Onshore1,672,Pereira Barreto III,EPE - Projetos_Onshore - Projetos_Onshore1,0.8947,True
+sem_bloco,672,Pereira Barreto III,EPE - Projetos_Onshore - Projetos_Onshore1,673,Pereira Barreto IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.8947,True
+sem_bloco,73,Aura Mangueira VII,EPE - Projetos_Onshore - Projetos_Onshore1,77,Aura Mangueira XIII,EPE - Projetos_Onshore - Projetos_Onshore1,0.8947,True
+sem_bloco,80,Aura Mangueira XVII,EPE - Projetos_Onshore - Projetos_Onshore1,83,Aura Mangueira VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.8947,True
+sem_bloco,855,Vazante 1,EPE - Projetos_Onshore - Projetos_Onshore1,857,Vazante 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,855,Vazante 1,EPE - Projetos_Onshore - Projetos_Onshore1,858,Vazante 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,992,Caetité D,EPE - Projetos_Onshore - Projetos_Onshore1,1000,Caetité C,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,979,Caetité 3,EPE - Projetos_Onshore - Projetos_Onshore1,992,Caetité D,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,979,Caetité 3,EPE - Projetos_Onshore - Projetos_Onshore1,995,Caetité A,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,923,Janaúba 2,EPE - Projetos_Onshore - Projetos_Onshore1,924,Janaúba 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,922,Janaúba 3,EPE - Projetos_Onshore - Projetos_Onshore1,924,Janaúba 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,922,Janaúba 3,EPE - Projetos_Onshore - Projetos_Onshore1,923,Janaúba 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,671,Pereira Barreto II,EPE - Projetos_Onshore - Projetos_Onshore1,675,Pereira Barreto V,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,75,Aura Mangueira XV,EPE - Projetos_Onshore - Projetos_Onshore1,78,Aura Mangueira XII,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,73,Aura Mangueira VII,EPE - Projetos_Onshore - Projetos_Onshore1,82,Aura Mangueira IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,73,Aura Mangueira VII,EPE - Projetos_Onshore - Projetos_Onshore1,74,Aura Mangueira XI,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,610,Colombo Ariranha 2,EPE - Projetos_Onshore - Projetos_Onshore1,611,Colombo Ariranha,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,78,Aura Mangueira XII,EPE - Projetos_Onshore - Projetos_Onshore1,83,Aura Mangueira VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,78,Aura Mangueira XII,EPE - Projetos_Onshore - Projetos_Onshore1,82,Aura Mangueira IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,573,Dracena 2,EPE - Projetos_Onshore - Projetos_Onshore1,575,Dracena 4,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,572,Dracena 1,EPE - Projetos_Onshore - Projetos_Onshore1,573,Dracena 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,979,Caetité 3,EPE - Projetos_Onshore - Projetos_Onshore1,984,Caetité 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,515,Guaimbê 4,EPE - Projetos_Onshore - Projetos_Onshore1,518,Guaimbê 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,517,Guaimbê 2,EPE - Projetos_Onshore - Projetos_Onshore1,518,Guaimbê 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,572,Dracena 1,EPE - Projetos_Onshore - Projetos_Onshore1,575,Dracena 4,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,516,Guaimbê 3,EPE - Projetos_Onshore - Projetos_Onshore1,518,Guaimbê 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,516,Guaimbê 3,EPE - Projetos_Onshore - Projetos_Onshore1,517,Guaimbê 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,515,Guaimbê 4,EPE - Projetos_Onshore - Projetos_Onshore1,516,Guaimbê 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,515,Guaimbê 4,EPE - Projetos_Onshore - Projetos_Onshore1,517,Guaimbê 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,514,Guaimbê 5,EPE - Projetos_Onshore - Projetos_Onshore1,518,Guaimbê 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,514,Guaimbê 5,EPE - Projetos_Onshore - Projetos_Onshore1,517,Guaimbê 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,514,Guaimbê 5,EPE - Projetos_Onshore - Projetos_Onshore1,516,Guaimbê 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,514,Guaimbê 5,EPE - Projetos_Onshore - Projetos_Onshore1,515,Guaimbê 4,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,502,Floresta,EPE - Projetos_Onshore - Projetos_Onshore1,762,Florestal,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,909,Janaúba 8,EPE - Projetos_Onshore - Projetos_Onshore1,922,Janaúba 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,909,Janaúba 8,EPE - Projetos_Onshore - Projetos_Onshore1,919,Janaúba 4,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,909,Janaúba 8,EPE - Projetos_Onshore - Projetos_Onshore1,917,Janaúba 5,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,909,Janaúba 8,EPE - Projetos_Onshore - Projetos_Onshore1,916,Janaúba 6,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,909,Janaúba 8,EPE - Projetos_Onshore - Projetos_Onshore1,914,Janaúba 9,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,909,Janaúba 8,EPE - Projetos_Onshore - Projetos_Onshore1,911,Janaúba 7,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,109,Pontal 2B,EPE - Projetos_Onshore - Projetos_Onshore1,111,Pontal 3B,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,911,Janaúba 7,EPE - Projetos_Onshore - Projetos_Onshore1,924,Janaúba 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,911,Janaúba 7,EPE - Projetos_Onshore - Projetos_Onshore1,923,Janaúba 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,911,Janaúba 7,EPE - Projetos_Onshore - Projetos_Onshore1,922,Janaúba 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,911,Janaúba 7,EPE - Projetos_Onshore - Projetos_Onshore1,919,Janaúba 4,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,911,Janaúba 7,EPE - Projetos_Onshore - Projetos_Onshore1,917,Janaúba 5,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,911,Janaúba 7,EPE - Projetos_Onshore - Projetos_Onshore1,916,Janaúba 6,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,911,Janaúba 7,EPE - Projetos_Onshore - Projetos_Onshore1,914,Janaúba 9,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,909,Janaúba 8,EPE - Projetos_Onshore - Projetos_Onshore1,924,Janaúba 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,909,Janaúba 8,EPE - Projetos_Onshore - Projetos_Onshore1,923,Janaúba 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,415,Canoas I,EPE - Projetos_Onshore - Projetos_Onshore1,416,Canoas II,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,109,Pontal 2B,EPE - Projetos_Onshore - Projetos_Onshore1,110,Pontal 2A,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,914,Janaúba 9,EPE - Projetos_Onshore - Projetos_Onshore1,919,Janaúba 4,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,914,Janaúba 9,EPE - Projetos_Onshore - Projetos_Onshore1,917,Janaúba 5,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,914,Janaúba 9,EPE - Projetos_Onshore - Projetos_Onshore1,916,Janaúba 6,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,973,Caititu 2,EPE - Projetos_Onshore - Projetos_Onshore1,974,Caititu 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,916,Janaúba 6,EPE - Projetos_Onshore - Projetos_Onshore1,917,Janaúba 5,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,914,Janaúba 9,EPE - Projetos_Onshore - Projetos_Onshore1,924,Janaúba 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,914,Janaúba 9,EPE - Projetos_Onshore - Projetos_Onshore1,923,Janaúba 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,914,Janaúba 9,EPE - Projetos_Onshore - Projetos_Onshore1,922,Janaúba 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,917,Janaúba 5,EPE - Projetos_Onshore - Projetos_Onshore1,924,Janaúba 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,917,Janaúba 5,EPE - Projetos_Onshore - Projetos_Onshore1,923,Janaúba 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,917,Janaúba 5,EPE - Projetos_Onshore - Projetos_Onshore1,922,Janaúba 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,917,Janaúba 5,EPE - Projetos_Onshore - Projetos_Onshore1,919,Janaúba 4,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,916,Janaúba 6,EPE - Projetos_Onshore - Projetos_Onshore1,924,Janaúba 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,916,Janaúba 6,EPE - Projetos_Onshore - Projetos_Onshore1,923,Janaúba 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,916,Janaúba 6,EPE - Projetos_Onshore - Projetos_Onshore1,922,Janaúba 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,919,Janaúba 4,EPE - Projetos_Onshore - Projetos_Onshore1,922,Janaúba 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,916,Janaúba 6,EPE - Projetos_Onshore - Projetos_Onshore1,919,Janaúba 4,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,919,Janaúba 4,EPE - Projetos_Onshore - Projetos_Onshore1,924,Janaúba 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,919,Janaúba 4,EPE - Projetos_Onshore - Projetos_Onshore1,923,Janaúba 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,995,Caetité A,EPE - Projetos_Onshore - Projetos_Onshore1,999,Caetité B,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,979,Caetité 3,EPE - Projetos_Onshore - Projetos_Onshore1,989,Caetité 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,857,Vazante 2,EPE - Projetos_Onshore - Projetos_Onshore1,858,Vazante 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,992,Caetité D,EPE - Projetos_Onshore - Projetos_Onshore1,999,Caetité B,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,992,Caetité D,EPE - Projetos_Onshore - Projetos_Onshore1,995,Caetité A,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,989,Caetité 1,EPE - Projetos_Onshore - Projetos_Onshore1,1000,Caetité C,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,989,Caetité 1,EPE - Projetos_Onshore - Projetos_Onshore1,999,Caetité B,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,989,Caetité 1,EPE - Projetos_Onshore - Projetos_Onshore1,995,Caetité A,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,989,Caetité 1,EPE - Projetos_Onshore - Projetos_Onshore1,992,Caetité D,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,984,Caetité 2,EPE - Projetos_Onshore - Projetos_Onshore1,1000,Caetité C,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,984,Caetité 2,EPE - Projetos_Onshore - Projetos_Onshore1,999,Caetité B,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,984,Caetité 2,EPE - Projetos_Onshore - Projetos_Onshore1,995,Caetité A,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,984,Caetité 2,EPE - Projetos_Onshore - Projetos_Onshore1,992,Caetité D,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,984,Caetité 2,EPE - Projetos_Onshore - Projetos_Onshore1,989,Caetité 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,979,Caetité 3,EPE - Projetos_Onshore - Projetos_Onshore1,1000,Caetité C,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,979,Caetité 3,EPE - Projetos_Onshore - Projetos_Onshore1,999,Caetité B,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,999,Caetité B,EPE - Projetos_Onshore - Projetos_Onshore1,1000,Caetité C,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,995,Caetité A,EPE - Projetos_Onshore - Projetos_Onshore1,1000,Caetité C,EPE - Projetos_Onshore - Projetos_Onshore1,0.8889,True
+sem_bloco,624,Ipê (Antiga Ceni),EPE - Projetos_Onshore - Projetos_Onshore1,626,BVE (Antiga Ceni),EPE - Projetos_Onshore - Projetos_Onshore1,0.8824,True
+sem_bloco,74,Aura Mangueira XI,EPE - Projetos_Onshore - Projetos_Onshore1,82,Aura Mangueira IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.8824,True
+sem_bloco,75,Aura Mangueira XV,EPE - Projetos_Onshore - Projetos_Onshore1,83,Aura Mangueira VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.8824,True
+sem_bloco,82,Aura Mangueira IV,EPE - Projetos_Onshore - Projetos_Onshore1,83,Aura Mangueira VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.8824,True
+sem_bloco,103,Fazenda Rosário,EPE - Projetos_Onshore - Projetos_Onshore1,104,Fazenda Rosário 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8824,True
+sem_bloco,102,Fazenda Rosário 3,EPE - Projetos_Onshore - Projetos_Onshore1,103,Fazenda Rosário,EPE - Projetos_Onshore - Projetos_Onshore1,0.8824,True
+sem_bloco,754,Água Vermelha IV,EPE - Projetos_Onshore - Projetos_Onshore1,759,Água Vermelha VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.875,True
+sem_bloco,683,Guarani Tanabi,EPE - Projetos_Onshore - Projetos_Onshore1,684,Guarani Tanabi 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.875,True
+sem_bloco,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.875,True
+sem_bloco,118,Osório 3,EPE - Projetos_Onshore - Projetos_Onshore1,121,Osório 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.875,True
+sem_bloco,364,Serraria,EPE - Projetos_Onshore - Projetos_Onshore1,563,Serrania,EPE - Projetos_Onshore - Projetos_Onshore1,0.875,True
+sem_bloco,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,0.875,True
+sem_bloco,1005,Cristalândia III,EPE - Projetos_Onshore - Projetos_Onshore1,1010,Cristalândia I,EPE - Projetos_Onshore - Projetos_Onshore1,0.875,True
+sem_bloco,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.875,True
+sem_bloco,956,Tamanduá Mirim 2,EPE - Projetos_Onshore - Projetos_Onshore1,970,Tamanduá Mirim,EPE - Projetos_Onshore - Projetos_Onshore1,0.875,True
+sem_bloco,115,Índios 2,EPE - Projetos_Onshore - Projetos_Onshore1,117,Índios 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.875,True
+sem_bloco,600,São Martinho Bioenergia,EPE - Projetos_Onshore - Projetos_Onshore1,601,São Martinho Energia,EPE - Projetos_Onshore - Projetos_Onshore1,0.8696,True
+sem_bloco,79,Aura Mirim VI,EPE - Projetos_Onshore - Projetos_Onshore1,81,Aura Mirim VIII,EPE - Projetos_Onshore - Projetos_Onshore1,0.8667,True
+sem_bloco,161,Rio Palmeiras I,EPE - Projetos_Onshore - Projetos_Onshore1,169,Rio Palmeiras,EPE - Projetos_Onshore - Projetos_Onshore1,0.8667,True
+sem_bloco,88,REB Cassino I,EPE - Projetos_Onshore - Projetos_Onshore1,90,REB Cassino III,EPE - Projetos_Onshore - Projetos_Onshore1,0.8667,True
+sem_bloco,76,Aura Mirim II,EPE - Projetos_Onshore - Projetos_Onshore1,81,Aura Mirim VIII,EPE - Projetos_Onshore - Projetos_Onshore1,0.8667,True
+sem_bloco,98,Cerro Chato I,EPE - Projetos_Onshore - Projetos_Onshore1,99,Cerro Chato III,EPE - Projetos_Onshore - Projetos_Onshore1,0.8667,True
+sem_bloco,867,Tropical Bioenergia II,EPE - Projetos_Onshore - Projetos_Onshore1,884,Tropical Bioenergia,EPE - Projetos_Onshore - Projetos_Onshore1,0.8636,True
+sem_bloco,550,Lins 07,EPE - Projetos_Onshore - Projetos_Onshore1,552,Lins 01,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,568,Rio Vermelho,EPE - Projetos_Onshore - Projetos_Onshore1,595,Rio Vermelho 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,554,Lins 02,EPE - Projetos_Onshore - Projetos_Onshore1,557,Lins 05,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,947,Juba II,EPE - Projetos_Onshore - Projetos_Onshore1,949,Juba I,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,193,Barra Grande,EPE - Projetos_Onshore - Projetos_Onshore1,448,Barra Grande 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,713,Buritis,EPE - Projetos_Onshore - Projetos_Onshore1,714,Buriti,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,928,Jaíba 9,EPE - Projetos_Onshore - Projetos_Onshore1,929,Jaíba 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,770,Araxá 2,EPE - Projetos_Onshore - Projetos_Onshore1,771,Araxá 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,552,Lins 01,EPE - Projetos_Onshore - Projetos_Onshore1,557,Lins 05,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,929,Jaíba 3,EPE - Projetos_Onshore - Projetos_Onshore1,930,Jaíba 4,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,928,Jaíba 9,EPE - Projetos_Onshore - Projetos_Onshore1,930,Jaíba 4,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,552,Lins 01,EPE - Projetos_Onshore - Projetos_Onshore1,554,Lins 02,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,551,Lins 08,EPE - Projetos_Onshore - Projetos_Onshore1,554,Lins 02,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,551,Lins 08,EPE - Projetos_Onshore - Projetos_Onshore1,553,Lins 06,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,551,Lins 08,EPE - Projetos_Onshore - Projetos_Onshore1,555,Lins 03,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,551,Lins 08,EPE - Projetos_Onshore - Projetos_Onshore1,556,Lins 04,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,48,Chuí IV,EPE - Projetos_Onshore - Projetos_Onshore1,49,Chuí II,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,501,Usina da Serra,EPE - Projetos_Onshore - Projetos_Onshore1,614,Usina da Pedra,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,550,Lins 07,EPE - Projetos_Onshore - Projetos_Onshore1,556,Lins 04,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,550,Lins 07,EPE - Projetos_Onshore - Projetos_Onshore1,557,Lins 05,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,403,Jaguari,EPE - Projetos_Onshore - Projetos_Onshore1,740,Jaguara,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,48,Chuí IV,EPE - Projetos_Onshore - Projetos_Onshore1,50,Chuí I,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,316,Rio Vermelho,EPE - Projetos_Onshore - Projetos_Onshore1,592,Rio Vermelho 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,316,Rio Vermelho,EPE - Projetos_Onshore - Projetos_Onshore1,595,Rio Vermelho 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,552,Lins 01,EPE - Projetos_Onshore - Projetos_Onshore1,555,Lins 03,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,551,Lins 08,EPE - Projetos_Onshore - Projetos_Onshore1,557,Lins 05,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,552,Lins 01,EPE - Projetos_Onshore - Projetos_Onshore1,553,Lins 06,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,550,Lins 07,EPE - Projetos_Onshore - Projetos_Onshore1,555,Lins 03,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,550,Lins 07,EPE - Projetos_Onshore - Projetos_Onshore1,551,Lins 08,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,550,Lins 07,EPE - Projetos_Onshore - Projetos_Onshore1,553,Lins 06,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,550,Lins 07,EPE - Projetos_Onshore - Projetos_Onshore1,554,Lins 02,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,551,Lins 08,EPE - Projetos_Onshore - Projetos_Onshore1,552,Lins 01,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,49,Chuí II,EPE - Projetos_Onshore - Projetos_Onshore1,50,Chuí I,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,403,Jaguari,EPE - Projetos_Onshore - Projetos_Onshore1,806,Baguari,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,47,Chuí V,EPE - Projetos_Onshore - Projetos_Onshore1,48,Chuí IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,553,Lins 06,EPE - Projetos_Onshore - Projetos_Onshore1,556,Lins 04,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,553,Lins 06,EPE - Projetos_Onshore - Projetos_Onshore1,554,Lins 02,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,555,Lins 03,EPE - Projetos_Onshore - Projetos_Onshore1,556,Lins 04,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,555,Lins 03,EPE - Projetos_Onshore - Projetos_Onshore1,557,Lins 05,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,568,Rio Vermelho,EPE - Projetos_Onshore - Projetos_Onshore1,592,Rio Vermelho 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,554,Lins 02,EPE - Projetos_Onshore - Projetos_Onshore1,556,Lins 04,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,554,Lins 02,EPE - Projetos_Onshore - Projetos_Onshore1,555,Lins 03,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,553,Lins 06,EPE - Projetos_Onshore - Projetos_Onshore1,557,Lins 05,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,556,Lins 04,EPE - Projetos_Onshore - Projetos_Onshore1,557,Lins 05,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,553,Lins 06,EPE - Projetos_Onshore - Projetos_Onshore1,555,Lins 03,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,552,Lins 01,EPE - Projetos_Onshore - Projetos_Onshore1,556,Lins 04,EPE - Projetos_Onshore - Projetos_Onshore1,0.8571,True
+sem_bloco,952,Coqueirinho 2,EPE - Projetos_Onshore - Projetos_Onshore1,962,Coqueirinho,EPE - Projetos_Onshore - Projetos_Onshore1,0.8462,False
+sem_bloco,72,Aura Mirim IV,EPE - Projetos_Onshore - Projetos_Onshore1,79,Aura Mirim VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.8462,False
+sem_bloco,571,Santa Luzia I,EPE - Projetos_Onshore - Projetos_Onshore1,1007,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,0.8462,False
+sem_bloco,571,Santa Luzia I,EPE - Projetos_Onshore - Projetos_Onshore1,837,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,0.8462,False
+sem_bloco,571,Santa Luzia I,EPE - Projetos_Onshore - Projetos_Onshore1,659,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,0.8462,False
+sem_bloco,122,Sangradouro,EPE - Projetos_Onshore - Projetos_Onshore1,123,Sangradouro 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8462,False
+sem_bloco,120,Sangradouro 3,EPE - Projetos_Onshore - Projetos_Onshore1,122,Sangradouro,EPE - Projetos_Onshore - Projetos_Onshore1,0.8462,False
+sem_bloco,80,Aura Mangueira XVII,EPE - Projetos_Onshore - Projetos_Onshore1,82,Aura Mangueira IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.8421,False
+sem_bloco,75,Aura Mangueira XV,EPE - Projetos_Onshore - Projetos_Onshore1,77,Aura Mangueira XIII,EPE - Projetos_Onshore - Projetos_Onshore1,0.8421,False
+sem_bloco,672,Pereira Barreto III,EPE - Projetos_Onshore - Projetos_Onshore1,675,Pereira Barreto V,EPE - Projetos_Onshore - Projetos_Onshore1,0.8421,False
+sem_bloco,77,Aura Mangueira XIII,EPE - Projetos_Onshore - Projetos_Onshore1,83,Aura Mangueira VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.8421,False
+sem_bloco,77,Aura Mangueira XIII,EPE - Projetos_Onshore - Projetos_Onshore1,82,Aura Mangueira IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.8421,False
+sem_bloco,47,Chuí V,EPE - Projetos_Onshore - Projetos_Onshore1,50,Chuí I,EPE - Projetos_Onshore - Projetos_Onshore1,0.8333,False
+sem_bloco,938,Ita 01,EPE - Projetos_Onshore - Projetos_Onshore1,939,Ita 02,EPE - Projetos_Onshore - Projetos_Onshore1,0.8333,False
+sem_bloco,166,Pinheiros II,EPE - Projetos_Onshore - Projetos_Onshore1,662,Pioneiros II,EPE - Projetos_Onshore - Projetos_Onshore1,0.8333,False
+sem_bloco,960,Teiú 2,EPE - Projetos_Onshore - Projetos_Onshore1,967,Teiú 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8333,False
+sem_bloco,105,Atlântica II,EPE - Projetos_Onshore - Projetos_Onshore1,108,Atlântica V,EPE - Projetos_Onshore - Projetos_Onshore1,0.8333,False
+sem_bloco,73,Aura Mangueira VII,EPE - Projetos_Onshore - Projetos_Onshore1,75,Aura Mangueira XV,EPE - Projetos_Onshore - Projetos_Onshore1,0.8333,False
+sem_bloco,788,Vale do Tijuco,EPE - Projetos_Onshore - Projetos_Onshore1,789,Vale do Tijuco II,EPE - Projetos_Onshore - Projetos_Onshore1,0.8235,False
+sem_bloco,878,Pirapora 9,EPE - Projetos_Onshore - Projetos_Onshore1,879,Pirapora 10,EPE - Projetos_Onshore - Projetos_Onshore1,0.8182,False
+sem_bloco,645,Viralcool,EPE - Projetos_Onshore - Projetos_Onshore1,646,Virálcool 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8182,False
+sem_bloco,65,Verace VIII,EPE - Projetos_Onshore - Projetos_Onshore1,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.8182,False
+sem_bloco,873,Pirapora 4,EPE - Projetos_Onshore - Projetos_Onshore1,879,Pirapora 10,EPE - Projetos_Onshore - Projetos_Onshore1,0.8182,False
+sem_bloco,874,Pirapora 5,EPE - Projetos_Onshore - Projetos_Onshore1,879,Pirapora 10,EPE - Projetos_Onshore - Projetos_Onshore1,0.8182,False
+sem_bloco,872,Pirapora 3,EPE - Projetos_Onshore - Projetos_Onshore1,879,Pirapora 10,EPE - Projetos_Onshore - Projetos_Onshore1,0.8182,False
+sem_bloco,65,Verace VIII,EPE - Projetos_Onshore - Projetos_Onshore1,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,0.8182,False
+sem_bloco,964,Corrupião 2,EPE - Projetos_Onshore - Projetos_Onshore1,975,Corrupião,EPE - Projetos_Onshore - Projetos_Onshore1,0.8182,False
+sem_bloco,877,Pirapora 7,EPE - Projetos_Onshore - Projetos_Onshore1,879,Pirapora 10,EPE - Projetos_Onshore - Projetos_Onshore1,0.8182,False
+sem_bloco,876,Pirapora 6,EPE - Projetos_Onshore - Projetos_Onshore1,879,Pirapora 10,EPE - Projetos_Onshore - Projetos_Onshore1,0.8182,False
+sem_bloco,875,Pirapora 2,EPE - Projetos_Onshore - Projetos_Onshore1,879,Pirapora 10,EPE - Projetos_Onshore - Projetos_Onshore1,0.8182,False
+sem_bloco,975,Corrupião,EPE - Projetos_Onshore - Projetos_Onshore1,977,Corrupião 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8182,False
+sem_bloco,898,Corumbá III,EPE - Projetos_Onshore - Projetos_Onshore1,902,Corumbá IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.8182,False
+sem_bloco,382,Pedreira (Elevatória/Potência de bombeamento 93.500 kW),EPE - Projetos_Onshore - Projetos_Onshore1,447,Vigário (Elevatória/Potência de bombeamento 90.820 kW),EPE - Projetos_Onshore - Projetos_Onshore1,0.8182,False
+sem_bloco,859,Corumbá I,EPE - Projetos_Onshore - Projetos_Onshore1,898,Corumbá III,EPE - Projetos_Onshore - Projetos_Onshore1,0.8182,False
+sem_bloco,162,Rio Palmeiras II,EPE - Projetos_Onshore - Projetos_Onshore1,169,Rio Palmeiras,EPE - Projetos_Onshore - Projetos_Onshore1,0.8125,False
+sem_bloco,678,Noble Energia,EPE - Projetos_Onshore - Projetos_Onshore1,701,Noble Energia II,EPE - Projetos_Onshore - Projetos_Onshore1,0.8125,False
+sem_bloco,920,Janaúba 13,EPE - Projetos_Onshore - Projetos_Onshore1,923,Janaúba 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,913,Janaúba 11,EPE - Projetos_Onshore - Projetos_Onshore1,914,Janaúba 9,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,911,Janaúba 7,EPE - Projetos_Onshore - Projetos_Onshore1,918,Janaúba 14,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,911,Janaúba 7,EPE - Projetos_Onshore - Projetos_Onshore1,920,Janaúba 13,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,911,Janaúba 7,EPE - Projetos_Onshore - Projetos_Onshore1,921,Janaúba 12,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,400,Boa Vista,EPE - Projetos_Onshore - Projetos_Onshore1,644,Bela Vista,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,911,Janaúba 7,EPE - Projetos_Onshore - Projetos_Onshore1,913,Janaúba 11,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,388,Vista Alegre,EPE - Projetos_Onshore - Projetos_Onshore1,534,Vista Alegre II,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,921,Janaúba 12,EPE - Projetos_Onshore - Projetos_Onshore1,922,Janaúba 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,911,Janaúba 7,EPE - Projetos_Onshore - Projetos_Onshore1,915,Janaúba 10,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,313,Itapocuzinho II,EPE - Projetos_Onshore - Projetos_Onshore1,314,Itapocuzinho,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,913,Janaúba 11,EPE - Projetos_Onshore - Projetos_Onshore1,917,Janaúba 5,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,913,Janaúba 11,EPE - Projetos_Onshore - Projetos_Onshore1,919,Janaúba 4,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,913,Janaúba 11,EPE - Projetos_Onshore - Projetos_Onshore1,923,Janaúba 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,913,Janaúba 11,EPE - Projetos_Onshore - Projetos_Onshore1,922,Janaúba 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,914,Janaúba 9,EPE - Projetos_Onshore - Projetos_Onshore1,915,Janaúba 10,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,909,Janaúba 8,EPE - Projetos_Onshore - Projetos_Onshore1,921,Janaúba 12,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,909,Janaúba 8,EPE - Projetos_Onshore - Projetos_Onshore1,920,Janaúba 13,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,909,Janaúba 8,EPE - Projetos_Onshore - Projetos_Onshore1,913,Janaúba 11,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,909,Janaúba 8,EPE - Projetos_Onshore - Projetos_Onshore1,918,Janaúba 14,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,914,Janaúba 9,EPE - Projetos_Onshore - Projetos_Onshore1,918,Janaúba 14,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,914,Janaúba 9,EPE - Projetos_Onshore - Projetos_Onshore1,920,Janaúba 13,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,916,Janaúba 6,EPE - Projetos_Onshore - Projetos_Onshore1,918,Janaúba 14,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,915,Janaúba 10,EPE - Projetos_Onshore - Projetos_Onshore1,917,Janaúba 5,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,913,Janaúba 11,EPE - Projetos_Onshore - Projetos_Onshore1,916,Janaúba 6,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,919,Janaúba 4,EPE - Projetos_Onshore - Projetos_Onshore1,921,Janaúba 12,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,916,Janaúba 6,EPE - Projetos_Onshore - Projetos_Onshore1,921,Janaúba 12,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,72,Aura Mirim IV,EPE - Projetos_Onshore - Projetos_Onshore1,81,Aura Mirim VIII,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,915,Janaúba 10,EPE - Projetos_Onshore - Projetos_Onshore1,923,Janaúba 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,918,Janaúba 14,EPE - Projetos_Onshore - Projetos_Onshore1,923,Janaúba 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,918,Janaúba 14,EPE - Projetos_Onshore - Projetos_Onshore1,922,Janaúba 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,916,Janaúba 6,EPE - Projetos_Onshore - Projetos_Onshore1,920,Janaúba 13,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,746,Cerradão 2,EPE - Projetos_Onshore - Projetos_Onshore1,749,Cerradão,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,747,Cerradão 3,EPE - Projetos_Onshore - Projetos_Onshore1,749,Cerradão,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,644,Bela Vista,EPE - Projetos_Onshore - Projetos_Onshore1,834,Boa Vista,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,914,Janaúba 9,EPE - Projetos_Onshore - Projetos_Onshore1,921,Janaúba 12,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,915,Janaúba 10,EPE - Projetos_Onshore - Projetos_Onshore1,916,Janaúba 6,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,917,Janaúba 5,EPE - Projetos_Onshore - Projetos_Onshore1,918,Janaúba 14,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,919,Janaúba 4,EPE - Projetos_Onshore - Projetos_Onshore1,920,Janaúba 13,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,887,SM-01,EPE - Projetos_Onshore - Projetos_Onshore1,889,SM-06,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,915,Janaúba 10,EPE - Projetos_Onshore - Projetos_Onshore1,919,Janaúba 4,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,909,Janaúba 8,EPE - Projetos_Onshore - Projetos_Onshore1,915,Janaúba 10,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,915,Janaúba 10,EPE - Projetos_Onshore - Projetos_Onshore1,922,Janaúba 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,917,Janaúba 5,EPE - Projetos_Onshore - Projetos_Onshore1,921,Janaúba 12,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,917,Janaúba 5,EPE - Projetos_Onshore - Projetos_Onshore1,920,Janaúba 13,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,0.8,False
+sem_bloco,245,Rio das Pedras,EPE - Projetos_Onshore - Projetos_Onshore1,263,Rio das Pacas,EPE - Projetos_Onshore - Projetos_Onshore1,0.7857,False
+sem_bloco,306,Salto do Timbó,EPE - Projetos_Onshore - Projetos_Onshore1,413,Salto do Lobo,EPE - Projetos_Onshore - Projetos_Onshore1,0.7857,False
+sem_bloco,854,Serra do Facão,EPE - Projetos_Onshore - Projetos_Onshore1,990,Serra do Salto,EPE - Projetos_Onshore - Projetos_Onshore1,0.7857,False
+sem_bloco,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,957,Caetité,EPE - Projetos_Onshore - Projetos_Onshore1,992,Caetité D,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,957,Caetité,EPE - Projetos_Onshore - Projetos_Onshore1,984,Caetité 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,974,Caititu 3,EPE - Projetos_Onshore - Projetos_Onshore1,979,Caetité 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,973,Caititu 2,EPE - Projetos_Onshore - Projetos_Onshore1,984,Caetité 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,958,Caititu,EPE - Projetos_Onshore - Projetos_Onshore1,973,Caititu 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,957,Caetité,EPE - Projetos_Onshore - Projetos_Onshore1,999,Caetité B,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,963,Angical 2,EPE - Projetos_Onshore - Projetos_Onshore1,971,Angical,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,957,Caetité,EPE - Projetos_Onshore - Projetos_Onshore1,989,Caetité 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,957,Caetité,EPE - Projetos_Onshore - Projetos_Onshore1,1000,Caetité C,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,957,Caetité,EPE - Projetos_Onshore - Projetos_Onshore1,995,Caetité A,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,959,Inhambu 2,EPE - Projetos_Onshore - Projetos_Onshore1,969,Inhambu,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,958,Caititu,EPE - Projetos_Onshore - Projetos_Onshore1,974,Caititu 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,110,Pontal 2A,EPE - Projetos_Onshore - Projetos_Onshore1,111,Pontal 3B,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,957,Caetité,EPE - Projetos_Onshore - Projetos_Onshore1,979,Caetité 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,630,Da Mata,EPE - Projetos_Onshore - Projetos_Onshore1,631,Da Mata 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,0.7778,False
+sem_bloco,164,Andorinhas,EPE - Projetos_Onshore - Projetos_Onshore1,461,Andorinhas II,EPE - Projetos_Onshore - Projetos_Onshore1,0.7692,False
+sem_bloco,249,Salto Pilão,EPE - Projetos_Onshore - Projetos_Onshore1,312,Salto Pintado,EPE - Projetos_Onshore - Projetos_Onshore1,0.7692,False
+sem_bloco,382,Pedreira (Elevatória/Potência de bombeamento 93.500 kW),EPE - Projetos_Onshore - Projetos_Onshore1,465,Santa Cecília (Elevatória/Potência de bombeamento 34.960 kW),EPE - Projetos_Onshore - Projetos_Onshore1,0.7667,False
+sem_bloco,782,Cachoeira do Oito,EPE - Projetos_Onshore - Projetos_Onshore1,805,Cachoeira da Onça,EPE - Projetos_Onshore - Projetos_Onshore1,0.7647,False
+sem_bloco,222,Solar São Gabriel,EPE - Projetos_Onshore - Projetos_Onshore1,224,Solar São Rafael,EPE - Projetos_Onshore - Projetos_Onshore1,0.7647,False
+sem_bloco,317,Rio Vermelho URVE,EPE - Projetos_Onshore - Projetos_Onshore1,595,Rio Vermelho 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.7647,False
+sem_bloco,317,Rio Vermelho URVE,EPE - Projetos_Onshore - Projetos_Onshore1,592,Rio Vermelho 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.7647,False
+sem_bloco,180,Volta Grande,EPE - Projetos_Onshore - Projetos_Onshore1,798,Salto Grande,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,173,São José,EPE - Projetos_Onshore - Projetos_Onshore1,654,São João,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,173,São José,EPE - Projetos_Onshore - Projetos_Onshore1,473,São João,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,739,Volta Grande,EPE - Projetos_Onshore - Projetos_Onshore1,798,Salto Grande,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,630,Da Mata,EPE - Projetos_Onshore - Projetos_Onshore1,1009,Da Prata,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,221,Solar São Miguel,EPE - Projetos_Onshore - Projetos_Onshore1,224,Solar São Rafael,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,180,Volta Grande,EPE - Projetos_Onshore - Projetos_Onshore1,715,Roça Grande,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,715,Roça Grande,EPE - Projetos_Onshore - Projetos_Onshore1,743,Volta Grande,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,277,Caju,EPE - Projetos_Onshore - Projetos_Onshore1,836,Caçu,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,540,Ibitinga,EPE - Projetos_Onshore - Projetos_Onshore1,606,Itutinga,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,226,Camboatá,EPE - Projetos_Onshore - Projetos_Onshore1,910,Cambará,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,524,Cachoeira do Brumado,EPE - Projetos_Onshore - Projetos_Onshore1,838,Cachoeira Dourada,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,149,Saltinho,EPE - Projetos_Onshore - Projetos_Onshore1,724,Valinho,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,455,Limoeiro,EPE - Projetos_Onshore - Projetos_Onshore1,636,Limeira,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,115,Índios 2,EPE - Projetos_Onshore - Projetos_Onshore1,116,Índios,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,119,Osório,EPE - Projetos_Onshore - Projetos_Onshore1,121,Osório 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,901,Veracel,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,133,Cambará,EPE - Projetos_Onshore - Projetos_Onshore1,226,Camboatá,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,353,Cachoeira,EPE - Projetos_Onshore - Projetos_Onshore1,457,Cachoeirinha,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,447,Vigário (Elevatória/Potência de bombeamento 90.820 kW),EPE - Projetos_Onshore - Projetos_Onshore1,465,Santa Cecília (Elevatória/Potência de bombeamento 34.960 kW),EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,524,Cachoeira do Brumado,EPE - Projetos_Onshore - Projetos_Onshore1,839,Cachoeira Dourada,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,433,Água Bonita,EPE - Projetos_Onshore - Projetos_Onshore1,464,Barra Bonita,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,116,Índios,EPE - Projetos_Onshore - Projetos_Onshore1,117,Índios 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,118,Osório 3,EPE - Projetos_Onshore - Projetos_Onshore1,119,Osório,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,364,Serraria,EPE - Projetos_Onshore - Projetos_Onshore1,526,Ferrari,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,373,São José,EPE - Projetos_Onshore - Projetos_Onshore1,473,São João,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,404,Paranapanema,EPE - Projetos_Onshore - Projetos_Onshore1,635,Pirapanema,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,373,São José,EPE - Projetos_Onshore - Projetos_Onshore1,654,São João,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,743,Volta Grande,EPE - Projetos_Onshore - Projetos_Onshore1,798,Salto Grande,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,901,Veracel,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,660,Gasa,EPE - Projetos_Onshore - Projetos_Onshore1,790,Lasa,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,723,Divinópolis,EPE - Projetos_Onshore - Projetos_Onshore1,846,Quirinópolis,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,901,Veracel,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,715,Roça Grande,EPE - Projetos_Onshore - Projetos_Onshore1,739,Volta Grande,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,662,Pioneiros II,EPE - Projetos_Onshore - Projetos_Onshore1,668,Pioneiros,EPE - Projetos_Onshore - Projetos_Onshore1,0.75,False
+sem_bloco,835,Unidade de Bioenergia Costa Rica,EPE - Projetos_Onshore - Projetos_Onshore1,864,Unidade de Bioenergia Alto Taquari,EPE - Projetos_Onshore - Projetos_Onshore1,0.7353,False
+sem_bloco,103,Fazenda Rosário,EPE - Projetos_Onshore - Projetos_Onshore1,674,Vale do Rosário,EPE - Projetos_Onshore - Projetos_Onshore1,0.7333,False
+sem_bloco,478,N O Bioenergia,EPE - Projetos_Onshore - Projetos_Onshore1,885,NG Bioenergia I,EPE - Projetos_Onshore - Projetos_Onshore1,0.7333,False
+sem_bloco,863,Santa Clara,EPE - Projetos_Onshore - Projetos_Onshore1,900,Santa Marta,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,779,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,1007,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,181,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,837,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,181,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,659,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,471,Amandina,EPE - Projetos_Onshore - Projetos_Onshore1,480,Amandina II,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,138,Monte Claro,EPE - Projetos_Onshore - Projetos_Onshore1,656,Monte Alto,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,334,Santa Clara,EPE - Projetos_Onshore - Projetos_Onshore1,779,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,334,Santa Clara,EPE - Projetos_Onshore - Projetos_Onshore1,900,Santa Marta,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,181,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,334,Santa Clara,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,181,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,863,Santa Clara,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,65,Verace VIII,EPE - Projetos_Onshore - Projetos_Onshore1,71,Verace I,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,65,Verace VIII,EPE - Projetos_Onshore - Projetos_Onshore1,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,65,Verace VIII,EPE - Projetos_Onshore - Projetos_Onshore1,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,659,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,779,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,208,Barra Clara,EPE - Projetos_Onshore - Projetos_Onshore1,334,Santa Clara,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,208,Barra Clara,EPE - Projetos_Onshore - Projetos_Onshore1,863,Santa Clara,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,688,Cachoeira dos Prazeres,EPE - Projetos_Onshore - Projetos_Onshore1,780,Cachoeira dos Macacos,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,766,Carneirinho,EPE - Projetos_Onshore - Projetos_Onshore1,962,Coqueirinho,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,181,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,1007,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,779,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,837,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,65,Verace VIII,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,779,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,863,Santa Clara,EPE - Projetos_Onshore - Projetos_Onshore1,0.7273,False
+sem_bloco,47,Chuí V,EPE - Projetos_Onshore - Projetos_Onshore1,49,Chuí II,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,46,Chuí 09,EPE - Projetos_Onshore - Projetos_Onshore1,50,Chuí I,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,46,Chuí 09,EPE - Projetos_Onshore - Projetos_Onshore1,49,Chuí II,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,46,Chuí 09,EPE - Projetos_Onshore - Projetos_Onshore1,48,Chuí IV,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,46,Chuí 09,EPE - Projetos_Onshore - Projetos_Onshore1,47,Chuí V,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,864,Unidade de Bioenergia Alto Taquari,EPE - Projetos_Onshore - Projetos_Onshore1,871,Unidade de Bioenergia Água Emendada,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,718,Pedranópolis 3,EPE - Projetos_Onshore - Projetos_Onshore1,849,Serranópolis,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,740,Jaguara,EPE - Projetos_Onshore - Projetos_Onshore1,806,Baguari,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,719,Pedranópolis 1,EPE - Projetos_Onshore - Projetos_Onshore1,849,Serranópolis,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,720,Pedranópolis 2,EPE - Projetos_Onshore - Projetos_Onshore1,849,Serranópolis,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,910,Cambará,EPE - Projetos_Onshore - Projetos_Onshore1,976,Carcará,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,362,Puma II,EPE - Projetos_Onshore - Projetos_Onshore1,947,Juba II,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,721,Samburá,EPE - Projetos_Onshore - Projetos_Onshore1,910,Cambará,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,275,Frascal,EPE - Projetos_Onshore - Projetos_Onshore1,378,França,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,312,Salto Pintado,EPE - Projetos_Onshore - Projetos_Onshore1,336,Salto Santiago,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,285,Burro Branco I,EPE - Projetos_Onshore - Projetos_Onshore1,375,Ouro Branco,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,297,Cascata,EPE - Projetos_Onshore - Projetos_Onshore1,976,Carcará,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,387,Barueri,EPE - Projetos_Onshore - Projetos_Onshore1,806,Baguari,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,252,Laje de Pedra,EPE - Projetos_Onshore - Projetos_Onshore1,870,Ponte de Pedra,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,167,Rio das Furnas,EPE - Projetos_Onshore - Projetos_Onshore1,245,Rio das Pedras,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,133,Cambará,EPE - Projetos_Onshore - Projetos_Onshore1,721,Samburá,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,957,Caetité,EPE - Projetos_Onshore - Projetos_Onshore1,958,Caititu,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,171,Mambuca,EPE - Projetos_Onshore - Projetos_Onshore1,721,Samburá,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,167,Rio das Furnas,EPE - Projetos_Onshore - Projetos_Onshore1,348,Rio das Mortes,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,133,Cambará,EPE - Projetos_Onshore - Projetos_Onshore1,976,Carcará,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,167,Rio das Furnas,EPE - Projetos_Onshore - Projetos_Onshore1,263,Rio das Pacas,EPE - Projetos_Onshore - Projetos_Onshore1,0.7143,False
+sem_bloco,707,Cachoeira Alta,EPE - Projetos_Onshore - Projetos_Onshore1,805,Cachoeira da Onça,EPE - Projetos_Onshore - Projetos_Onshore1,0.7059,False
+sem_bloco,317,Rio Vermelho URVE,EPE - Projetos_Onshore - Projetos_Onshore1,568,Rio Vermelho,EPE - Projetos_Onshore - Projetos_Onshore1,0.7059,False
+sem_bloco,221,Solar São Miguel,EPE - Projetos_Onshore - Projetos_Onshore1,222,Solar São Gabriel,EPE - Projetos_Onshore - Projetos_Onshore1,0.7059,False
+sem_bloco,782,Cachoeira do Oito,EPE - Projetos_Onshore - Projetos_Onshore1,838,Cachoeira Dourada,EPE - Projetos_Onshore - Projetos_Onshore1,0.7059,False
+sem_bloco,805,Cachoeira da Onça,EPE - Projetos_Onshore - Projetos_Onshore1,839,Cachoeira Dourada,EPE - Projetos_Onshore - Projetos_Onshore1,0.7059,False
+sem_bloco,805,Cachoeira da Onça,EPE - Projetos_Onshore - Projetos_Onshore1,838,Cachoeira Dourada,EPE - Projetos_Onshore - Projetos_Onshore1,0.7059,False
+sem_bloco,356,Santa Branca (PR),EPE - Projetos_Onshore - Projetos_Onshore1,394,Santa Branca,EPE - Projetos_Onshore - Projetos_Onshore1,0.7059,False
+sem_bloco,782,Cachoeira do Oito,EPE - Projetos_Onshore - Projetos_Onshore1,839,Cachoeira Dourada,EPE - Projetos_Onshore - Projetos_Onshore1,0.7059,False
+sem_bloco,316,Rio Vermelho,EPE - Projetos_Onshore - Projetos_Onshore1,317,Rio Vermelho URVE,EPE - Projetos_Onshore - Projetos_Onshore1,0.7059,False
+sem_bloco,524,Cachoeira do Brumado,EPE - Projetos_Onshore - Projetos_Onshore1,782,Cachoeira do Oito,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,561,Equipav,EPE - Projetos_Onshore - Projetos_Onshore1,562,Equipav II,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,645,Viralcool,EPE - Projetos_Onshore - Projetos_Onshore1,941,Barralcool,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,172,Rio Alegre,EPE - Projetos_Onshore - Projetos_Onshore1,251,Rio Tigre,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,68,Verace V,EPE - Projetos_Onshore - Projetos_Onshore1,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,60,Verace X,EPE - Projetos_Onshore - Projetos_Onshore1,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,63,Verace VII,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,69,Verace III,EPE - Projetos_Onshore - Projetos_Onshore1,0.7,False
+sem_bloco,835,Unidade de Bioenergia Costa Rica,EPE - Projetos_Onshore - Projetos_Onshore1,865,Unidade de Bioenergia Morro Vermelho,EPE - Projetos_Onshore - Projetos_Onshore1,0.6944,False
+sem_bloco,622,Santo Antônio,EPE - Projetos_Onshore - Projetos_Onshore1,750,Santo Ângelo,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,181,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,824,Santa Vitória,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,181,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,655,Santa Bárbara,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,169,Rio Palmeiras,EPE - Projetos_Onshore - Projetos_Onshore1,290,Palmeiras,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,194,Santo Antônio,EPE - Projetos_Onshore - Projetos_Onshore1,750,Santo Ângelo,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,157,Santo Antônio,EPE - Projetos_Onshore - Projetos_Onshore1,750,Santo Ângelo,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,324,Salto do Vau,EPE - Projetos_Onshore - Projetos_Onshore1,413,Salto do Lobo,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,571,Santa Luzia I,EPE - Projetos_Onshore - Projetos_Onshore1,793,Santa Juliana,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,793,Santa Juliana,EPE - Projetos_Onshore - Projetos_Onshore1,837,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,793,Santa Juliana,EPE - Projetos_Onshore - Projetos_Onshore1,1007,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,655,Santa Bárbara,EPE - Projetos_Onshore - Projetos_Onshore1,900,Santa Marta,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,397,Santa Adélia,EPE - Projetos_Onshore - Projetos_Onshore1,617,Santa Cecília,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,655,Santa Bárbara,EPE - Projetos_Onshore - Projetos_Onshore1,779,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,659,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,793,Santa Juliana,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,655,Santa Bárbara,EPE - Projetos_Onshore - Projetos_Onshore1,863,Santa Clara,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,793,Santa Juliana,EPE - Projetos_Onshore - Projetos_Onshore1,863,Santa Clara,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,779,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,824,Santa Vitória,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,394,Santa Branca,EPE - Projetos_Onshore - Projetos_Onshore1,655,Santa Bárbara,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,334,Santa Clara,EPE - Projetos_Onshore - Projetos_Onshore1,655,Santa Bárbara,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,159,Rio do Ouro,EPE - Projetos_Onshore - Projetos_Onshore1,202,Pingo De Ouro,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,334,Santa Clara,EPE - Projetos_Onshore - Projetos_Onshore1,793,Santa Juliana,EPE - Projetos_Onshore - Projetos_Onshore1,0.6923,False
+sem_bloco,466,Barra Bioenergia,EPE - Projetos_Onshore - Projetos_Onshore1,478,N O Bioenergia,EPE - Projetos_Onshore - Projetos_Onshore1,0.6875,False
+sem_bloco,835,Unidade de Bioenergia Costa Rica,EPE - Projetos_Onshore - Projetos_Onshore1,871,Unidade de Bioenergia Água Emendada,EPE - Projetos_Onshore - Projetos_Onshore1,0.6857,False
+sem_bloco,260,Mogano Energia,EPE - Projetos_Onshore - Projetos_Onshore1,689,Mogiana Bio-Energia,EPE - Projetos_Onshore - Projetos_Onshore1,0.6842,False
+sem_bloco,598,Univalem Bioenergia,EPE - Projetos_Onshore - Projetos_Onshore1,643,Planalto Bioenergia,EPE - Projetos_Onshore - Projetos_Onshore1,0.6842,False
+sem_bloco,478,N O Bioenergia,EPE - Projetos_Onshore - Projetos_Onshore1,643,Planalto Bioenergia,EPE - Projetos_Onshore - Projetos_Onshore1,0.6842,False
+sem_bloco,152,Cascata do Pinheirinho,EPE - Projetos_Onshore - Projetos_Onshore1,187,Cascata do Barreiro,EPE - Projetos_Onshore - Projetos_Onshore1,0.6818,False
+sem_bloco,483,São Fernando Energia I,EPE - Projetos_Onshore - Projetos_Onshore1,601,São Martinho Energia,EPE - Projetos_Onshore - Projetos_Onshore1,0.6818,False
+sem_bloco,565,LDC Bioenergia Rio Brilhante (Antiga Louis Dreyfus Rio Brilhante),EPE - Projetos_Onshore - Projetos_Onshore1,736,LDC Bioenergia Lagoa da Prata (Antiga Louis Dreyfus Lagoa da Prata),EPE - Projetos_Onshore - Projetos_Onshore1,0.6716,False
+sem_bloco,477,Brotas II,EPE - Projetos_Onshore - Projetos_Onshore1,609,Biopav II,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,476,Brotas,EPE - Projetos_Onshore - Projetos_Onshore1,477,Brotas II,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,452,Rosana,EPE - Projetos_Onshore - Projetos_Onshore1,1011,Joana,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,452,Rosana,EPE - Projetos_Onshore - Projetos_Onshore1,649,Rosal,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,397,Santa Adélia,EPE - Projetos_Onshore - Projetos_Onshore1,1007,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,405,Pirajú,EPE - Projetos_Onshore - Projetos_Onshore1,566,Piau,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,409,Rio Pardo,EPE - Projetos_Onshore - Projetos_Onshore1,988,Rio Verde,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,425,UFL,EPE - Projetos_Onshore - Projetos_Onshore1,521,UFA,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,452,Rosana,EPE - Projetos_Onshore - Projetos_Onshore1,648,Rosal,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,457,Cachoeirinha,EPE - Projetos_Onshore - Projetos_Onshore1,766,Carneirinho,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,780,Cachoeira dos Macacos,EPE - Projetos_Onshore - Projetos_Onshore1,805,Cachoeira da Onça,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,780,Cachoeira dos Macacos,EPE - Projetos_Onshore - Projetos_Onshore1,782,Cachoeira do Oito,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,710,Cajuru,EPE - Projetos_Onshore - Projetos_Onshore1,933,Jauru,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,654,São João,EPE - Projetos_Onshore - Projetos_Onshore1,807,São Simão,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,692,Brito,EPE - Projetos_Onshore - Projetos_Onshore1,714,Buriti,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,660,Gasa,EPE - Projetos_Onshore - Projetos_Onshore1,853,Goiasa,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,624,Ipê (Antiga Ceni),EPE - Projetos_Onshore - Projetos_Onshore1,861,CEM (Antiga Camen),EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,626,BVE (Antiga Ceni),EPE - Projetos_Onshore - Projetos_Onshore1,861,CEM (Antiga Camen),EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,596,Cajuru,EPE - Projetos_Onshore - Projetos_Onshore1,933,Jauru,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,568,Rio Vermelho,EPE - Projetos_Onshore - Projetos_Onshore1,988,Rio Verde,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,742,Igarapava,EPE - Projetos_Onshore - Projetos_Onshore1,961,Arapapá,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,780,Cachoeira dos Macacos,EPE - Projetos_Onshore - Projetos_Onshore1,839,Cachoeira Dourada,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,780,Cachoeira dos Macacos,EPE - Projetos_Onshore - Projetos_Onshore1,838,Cachoeira Dourada,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,869,Sonora,EPE - Projetos_Onshore - Projetos_Onshore1,932,Codora,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,853,Goiasa,EPE - Projetos_Onshore - Projetos_Onshore1,935,Goianésia,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,845,Bio Alvorada,EPE - Projetos_Onshore - Projetos_Onshore1,983,Alvorada,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,846,Quirinópolis,EPE - Projetos_Onshore - Projetos_Onshore1,849,Serranópolis,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,797,Poções,EPE - Projetos_Onshore - Projetos_Onshore1,1003,Pilões,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,865,Unidade de Bioenergia Morro Vermelho,EPE - Projetos_Onshore - Projetos_Onshore1,871,Unidade de Bioenergia Água Emendada,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,864,Unidade de Bioenergia Alto Taquari,EPE - Projetos_Onshore - Projetos_Onshore1,865,Unidade de Bioenergia Morro Vermelho,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,394,Santa Branca,EPE - Projetos_Onshore - Projetos_Onshore1,900,Santa Marta,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,473,São João,EPE - Projetos_Onshore - Projetos_Onshore1,807,São Simão,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,507,Posses,EPE - Projetos_Onshore - Projetos_Onshore1,797,Poções,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,497,Santa Cândida I,EPE - Projetos_Onshore - Projetos_Onshore1,571,Santa Luzia I,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,485,Jacutinga,EPE - Projetos_Onshore - Projetos_Onshore1,606,Itutinga,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,394,Santa Branca,EPE - Projetos_Onshore - Projetos_Onshore1,1033,Cana Brava,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,531,Joasal,EPE - Projetos_Onshore - Projetos_Onshore1,1011,Joana,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,531,Joasal,EPE - Projetos_Onshore - Projetos_Onshore1,649,Rosal,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,524,Cachoeira do Brumado,EPE - Projetos_Onshore - Projetos_Onshore1,780,Cachoeira dos Macacos,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,531,Joasal,EPE - Projetos_Onshore - Projetos_Onshore1,648,Rosal,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,432,Decasa,EPE - Projetos_Onshore - Projetos_Onshore1,661,Cevasa,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,508,Quatiara,EPE - Projetos_Onshore - Projetos_Onshore1,589,Guatapará,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,188,Abaúna,EPE - Projetos_Onshore - Projetos_Onshore1,965,Acauã,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,277,Caju,EPE - Projetos_Onshore - Projetos_Onshore1,710,Cajuru,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,255,Dona Amélia,EPE - Projetos_Onshore - Projetos_Onshore1,822,Dona Enedina,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,277,Caju,EPE - Projetos_Onshore - Projetos_Onshore1,596,Cajuru,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,281,Rio Mato,EPE - Projetos_Onshore - Projetos_Onshore1,409,Rio Pardo,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,334,Santa Clara,EPE - Projetos_Onshore - Projetos_Onshore1,394,Santa Branca,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,394,Santa Branca,EPE - Projetos_Onshore - Projetos_Onshore1,863,Santa Clara,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,394,Santa Branca,EPE - Projetos_Onshore - Projetos_Onshore1,779,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,397,Santa Adélia,EPE - Projetos_Onshore - Projetos_Onshore1,779,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,397,Santa Adélia,EPE - Projetos_Onshore - Projetos_Onshore1,837,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,919,Janaúba 4,EPE - Projetos_Onshore - Projetos_Onshore1,930,Jaíba 4,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,175,Pirapó,EPE - Projetos_Onshore - Projetos_Onshore1,318,Piraí,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,181,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,394,Santa Branca,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,175,Pirapó,EPE - Projetos_Onshore - Projetos_Onshore1,899,Irapé,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,175,Pirapó,EPE - Projetos_Onshore - Projetos_Onshore1,405,Pirajú,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,172,Rio Alegre,EPE - Projetos_Onshore - Projetos_Onshore1,388,Vista Alegre,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,173,São José,EPE - Projetos_Onshore - Projetos_Onshore1,213,São Roque,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,255,Dona Amélia,EPE - Projetos_Onshore - Projetos_Onshore1,397,Santa Adélia,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,213,São Roque,EPE - Projetos_Onshore - Projetos_Onshore1,373,São José,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,218,Braga,EPE - Projetos_Onshore - Projetos_Onshore1,709,Bração,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,233,Pinhal,EPE - Projetos_Onshore - Projetos_Onshore1,981,Pindaí,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,193,Barra Grande,EPE - Projetos_Onshore - Projetos_Onshore1,798,Salto Grande,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,193,Barra Grande,EPE - Projetos_Onshore - Projetos_Onshore1,715,Roça Grande,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,193,Barra Grande,EPE - Projetos_Onshore - Projetos_Onshore1,739,Volta Grande,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,193,Barra Grande,EPE - Projetos_Onshore - Projetos_Onshore1,743,Volta Grande,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,181,Santa Maria,EPE - Projetos_Onshore - Projetos_Onshore1,397,Santa Adélia,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,180,Volta Grande,EPE - Projetos_Onshore - Projetos_Onshore1,193,Barra Grande,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,340,Salto Osório,EPE - Projetos_Onshore - Projetos_Onshore1,811,Salto Morais,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,363,Klabin Celulose,EPE - Projetos_Onshore - Projetos_Onshore1,816,LD Celulose,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,351,Pitangui,EPE - Projetos_Onshore - Projetos_Onshore1,629,Pitangueiras,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,397,Santa Adélia,EPE - Projetos_Onshore - Projetos_Onshore1,659,Santa Luzia,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,318,Piraí,EPE - Projetos_Onshore - Projetos_Onshore1,981,Pindaí,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,318,Piraí,EPE - Projetos_Onshore - Projetos_Onshore1,405,Pirajú,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,330,Guaricana,EPE - Projetos_Onshore - Projetos_Onshore1,728,Guariroba,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,914,Janaúba 9,EPE - Projetos_Onshore - Projetos_Onshore1,928,Jaíba 9,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,316,Rio Vermelho,EPE - Projetos_Onshore - Projetos_Onshore1,988,Rio Verde,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,190,Caveiras,EPE - Projetos_Onshore - Projetos_Onshore1,290,Palmeiras,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,928,Jaíba 9,EPE - Projetos_Onshore - Projetos_Onshore1,931,Jaíba SE1,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,62,Verace IX,EPE - Projetos_Onshore - Projetos_Onshore1,901,Veracel,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,922,Janaúba 3,EPE - Projetos_Onshore - Projetos_Onshore1,929,Jaíba 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,105,Atlântica II,EPE - Projetos_Onshore - Projetos_Onshore1,480,Amandina II,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,101,Palmares,EPE - Projetos_Onshore - Projetos_Onshore1,290,Palmeiras,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,960,Teiú 2,EPE - Projetos_Onshore - Projetos_Onshore1,972,Teiu,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,967,Teiú 3,EPE - Projetos_Onshore - Projetos_Onshore1,972,Teiu,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,58,Verace 31,EPE - Projetos_Onshore - Projetos_Onshore1,901,Veracel,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,59,Verace 36,EPE - Projetos_Onshore - Projetos_Onshore1,901,Veracel,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,66,Verace IV,EPE - Projetos_Onshore - Projetos_Onshore1,901,Veracel,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,61,Verace 35,EPE - Projetos_Onshore - Projetos_Onshore1,901,Veracel,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,127,Picada 48,EPE - Projetos_Onshore - Projetos_Onshore1,520,Picada,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,134,Itaqui,EPE - Projetos_Onshore - Projetos_Onshore1,272,Itajaí,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,64,Verace 34,EPE - Projetos_Onshore - Projetos_Onshore1,901,Veracel,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,67,Verace VI,EPE - Projetos_Onshore - Projetos_Onshore1,901,Veracel,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,930,Jaíba 4,EPE - Projetos_Onshore - Projetos_Onshore1,931,Jaíba SE1,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,70,Verace II,EPE - Projetos_Onshore - Projetos_Onshore1,901,Veracel,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,929,Jaíba 3,EPE - Projetos_Onshore - Projetos_Onshore1,931,Jaíba SE1,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,974,Caititu 3,EPE - Projetos_Onshore - Projetos_Onshore1,995,Caetité A,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,974,Caititu 3,EPE - Projetos_Onshore - Projetos_Onshore1,1000,Caetité C,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,57,Verace 30,EPE - Projetos_Onshore - Projetos_Onshore1,901,Veracel,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,56,Verace 29,EPE - Projetos_Onshore - Projetos_Onshore1,901,Veracel,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,973,Caititu 2,EPE - Projetos_Onshore - Projetos_Onshore1,979,Caetité 3,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,973,Caititu 2,EPE - Projetos_Onshore - Projetos_Onshore1,989,Caetité 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,973,Caititu 2,EPE - Projetos_Onshore - Projetos_Onshore1,992,Caetité D,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,973,Caititu 2,EPE - Projetos_Onshore - Projetos_Onshore1,999,Caetité B,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,973,Caititu 2,EPE - Projetos_Onshore - Projetos_Onshore1,995,Caetité A,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,973,Caititu 2,EPE - Projetos_Onshore - Projetos_Onshore1,1000,Caetité C,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,974,Caititu 3,EPE - Projetos_Onshore - Projetos_Onshore1,984,Caetité 2,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,974,Caititu 3,EPE - Projetos_Onshore - Projetos_Onshore1,999,Caetité B,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,974,Caititu 3,EPE - Projetos_Onshore - Projetos_Onshore1,989,Caetité 1,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,974,Caititu 3,EPE - Projetos_Onshore - Projetos_Onshore1,992,Caetité D,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,55,Verace 28,EPE - Projetos_Onshore - Projetos_Onshore1,901,Veracel,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,54,Verace 24,EPE - Projetos_Onshore - Projetos_Onshore1,901,Veracel,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,53,Verace 25,EPE - Projetos_Onshore - Projetos_Onshore1,901,Veracel,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,52,Verace 26,EPE - Projetos_Onshore - Projetos_Onshore1,901,Veracel,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,51,Verace 27,EPE - Projetos_Onshore - Projetos_Onshore1,901,Veracel,EPE - Projetos_Onshore - Projetos_Onshore1,0.6667,False
+sem_bloco,546,Rio do Peixe (Casa de Força I e II),EPE - Projetos_Onshore - Projetos_Onshore1,895,Itiquira (Casas de Forças I e II),EPE - Projetos_Onshore - Projetos_Onshore1,0.6571,False
+sem_bloco,702,Colombo Palestina,EPE - Projetos_Onshore - Projetos_Onshore1,738,Colombo Santa Albertina,EPE - Projetos_Onshore - Projetos_Onshore1,0.6522,False
+sem_bloco,524,Cachoeira do Brumado,EPE - Projetos_Onshore - Projetos_Onshore1,805,Cachoeira da Onça,EPE - Projetos_Onshore - Projetos_Onshore1,0.65,False
