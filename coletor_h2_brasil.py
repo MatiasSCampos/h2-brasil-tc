@@ -124,6 +124,15 @@ SERVICOS_INFRAESTRUTURA_GERAL = {
     "h2_db", "db_see_h2", "dashboardh2", "h2_dbpoints", "dashboard_points",
 }
 
+# Serviços que SÃO sobre projetos de hidrogênio mas cujo nome não contém "H2"
+# (por isso escapariam do filtro "h2" no nome) — descobertos manualmente ao
+# inspecionar a chamada de rede do painel "Potencial de recursos para a
+# produção de H2" da EPE (gisepeprd2.epe.gov.br/.../MapSeries/...). Esses
+# nomes são sempre incluídos, independente do filtro de "h2" no nome.
+SERVICOS_H2_SEM_H2_NO_NOME = {
+    "projetos_onshore", "projetos_offshore",
+}
+
 # Quantos registros buscar por página nas consultas ArcGIS, e quantas páginas no
 # máximo por camada (evita truncar silenciosamente em serviços com >1000 linhas,
 # e evita ficar rodando para sempre em camadas gigantes).
@@ -477,21 +486,9 @@ def descobrir_camadas_arcgis_h2() -> dict:
     candidatos = [
         s for s in servicos
         if "h2" in normalizar_texto(s.get("name", "").split("/")[-1]).replace(" ", "")
+        or normalizar_texto(s.get("name", "").split("/")[-1]) in SERVICOS_H2_SEM_H2_NO_NOME
     ]
-    log.info(f"  {len(candidatos)} serviço(s) com 'H2' no nome encontrados de {len(servicos)} total.")
-
-    if not INCLUIR_CAMADAS_DE_INFRAESTRUTURA_GERAL:
-        antes = len(candidatos)
-        candidatos = [
-            s for s in candidatos
-            if normalizar_texto(s.get("name", "").split("/")[-1]) not in SERVICOS_INFRAESTRUTURA_GERAL
-        ]
-        removidos = antes - len(candidatos)
-        if removidos:
-            log.info(
-                f"  {removidos} serviço(s) de infraestrutura geral (não específicos de H2) "
-                f"ignorado(s) — mude INCLUIR_CAMADAS_DE_INFRAESTRUTURA_GERAL para True se quiser incluí-los."
-            )
+    log.info(f"  {len(candidatos)} serviço(s) de hidrogênio encontrados de {len(servicos)} total.")
 
     # Agrupa por tema, mantendo só a versão de maior sufixo numérico (mais recente)
     grupos: dict[str, dict] = {}
@@ -513,6 +510,7 @@ def descobrir_camadas_arcgis_h2() -> dict:
     log.info(f"  {len(selecionados)} tema(s) únicos selecionados (versão mais recente de cada).")
 
     camadas = {}
+    camadas_infra_ignoradas = 0
     for item in selecionados:
         url_servico = f"{ARCGIS_REST_BASE}/{item['nome_completo']}/{item['tipo']}"
         try:
@@ -521,11 +519,35 @@ def descobrir_camadas_arcgis_h2() -> dict:
             log.warning(f"  Falha ao listar camadas de {item['nome_curto']}: {e}")
             continue
 
+        # Alguns serviços (H2_DB, DB_see_H2, DashboardH2, H2_DBPOINTS etc.) são
+        # MISTOS: reúnem, lado a lado, camadas de infraestrutura genérica do
+        # setor elétrico (usinas, linhas de transmissão, batimetria...) E
+        # camadas genuinamente sobre hidrogênio (ex.: "H2 Renováveis offshore",
+        # camada 13 de H2_DB). Excluir o serviço inteiro (como antes) jogava
+        # fora essas camadas boas também. Agora, só para esses serviços
+        # mistos, filtramos CAMADA POR CAMADA — mantém só as que têm "h2" no
+        # próprio nome da camada, não do serviço.
+        eh_servico_misto = (
+            not INCLUIR_CAMADAS_DE_INFRAESTRUTURA_GERAL
+            and normalizar_texto(item["nome_curto"]) in SERVICOS_INFRAESTRUTURA_GERAL
+        )
+
         for camada in sub_camadas:
             layer_id = camada.get("id")
             layer_nome = camada.get("name", f"camada{layer_id}")
+
+            if eh_servico_misto and "h2" not in normalizar_texto(layer_nome).replace(" ", ""):
+                camadas_infra_ignoradas += 1
+                continue
+
             nome_amigavel = f"EPE - {item['nome_curto']} - {layer_nome}"
             camadas[nome_amigavel] = f"{url_servico}/{layer_id}"
+
+    if camadas_infra_ignoradas:
+        log.info(
+            f"  {camadas_infra_ignoradas} camada(s) de infraestrutura genérica (dentro de "
+            f"serviços mistos) ignorada(s) — mantidas só as camadas com 'H2' no próprio nome."
+        )
 
     if not camadas:
         log.warning("  Nenhuma camada válida descoberta — usando lista de reserva (fallback manual).")
@@ -1265,11 +1287,12 @@ def gerar_base_h2v_multifonte():
         # tabela como "Resíduo por município" (milhares de linhas) inflava a
         # base inteira, já que suas colunas (Município/Local/UF) batem por
         # acidente com os apelidos de localização de projeto. Só entram aqui
-        # as camadas da EPE cujo nome é literalmente "Projetos" — as demais
-        # fontes (IEA, ANEEL, EIA, HTML institucional) não são afetadas por
-        # esse filtro, pois presumivelmente já são listagens de projetos.
+        # as camadas da EPE cujo nome CONTÉM "projetos" (ex.: "Projetos",
+        # "Projetos_Onshore", "Projetos_Offshore") — as demais fontes (IEA,
+        # ANEEL, EIA, HTML institucional) não são afetadas por esse filtro,
+        # pois presumivelmente já são listagens de projetos.
         if item.fonte.startswith("EPE - "):
-            if normalizar_texto(_nome_da_camada(item.fonte)) != "projetos":
+            if "projetos" not in normalizar_texto(_nome_da_camada(item.fonte)):
                 ignorados_infra += 1
                 continue
         caminho=Path(item.caminho_local)
@@ -1297,7 +1320,7 @@ def gerar_base_h2v_multifonte():
             # campo "Nome" já É o nome da empresa/proponente (confirmado
             # comparando com https://gisepeprd2.epe.gov.br/arcgisportal/apps/storymaps/stories/68332aaa3fc64524a656583e1367daa3).
             # Sem isso, dim_empresas ficava vazia para essa fonte.
-            if item.fonte.startswith("EPE - ") and normalizar_texto(_nome_da_camada(item.fonte)) == "projetos":
+            if item.fonte.startswith("EPE - ") and "projetos" in normalizar_texto(_nome_da_camada(item.fonte)):
                 out['empresa_consorcio'] = out['empresa_consorcio'].fillna(out['nome_projeto'])
 
             # Diagnóstico: avisa quais campos ficaram 100% vazios nesta
