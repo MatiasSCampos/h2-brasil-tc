@@ -8,7 +8,6 @@ Fontes cobertas por padrão (podem ser editadas na seção CONFIGURAÇÃO):
 - dados.gov.br (novo e legado)  -> Portal Brasileiro de Dados Abertos (CKAN)
 - dadosabertos.aneel.gov.br     -> Dados Abertos da ANEEL (CKAN)
 - gisepeprd2.epe.gov.br         -> Camadas ArcGIS REST da EPE (descoberta automática)
-- StoryMap EPE "Hidrogênio no Brasil" -> referência visual oficial; dados extraídos das camadas ArcGIS que o alimentam
 - api.eia.gov                   -> EIA - U.S. Energy Information Administration (requer chave)
 - energydata.info               -> Espelho da base de projetos de H2 da IEA (World Bank ESMAP)
 - epe.gov.br, h2portal.com.br   -> Publicações e Portal Brasileiro de Hidrogênio (HTML)
@@ -100,14 +99,6 @@ PASTA_ENTRADA_MANUAL = Path("dados_h2/entrada_manual")
 # tema e mantém apenas a versão mais recente de cada grupo.
 ARCGIS_REST_BASE = "https://gisepeprd2.epe.gov.br/arcgis/rest/services"
 ARCGIS_PASTA_H2 = "SEE"  # pasta onde a EPE publica as camadas de hidrogênio
-
-# StoryMap oficial da EPE. A interface visual usa serviços ArcGIS REST; o coletor
-# consulta os serviços diretamente para obter os dados estruturados, mas mantém
-# o StoryMap como referência oficial da fonte.
-URL_STORYMAP_EPE_H2 = (
-    "https://gisepeprd2.epe.gov.br/arcgisportal/apps/storymaps/stories/"
-    "68332aaa3fc64524a656583e1367daa3"
-)
 MAX_CAMADAS_ARCGIS = 15  # limite de segurança para não varrer serviços demais
 
 # Fallback manual: usado apenas se a descoberta automática acima falhar (ex.: a
@@ -166,8 +157,14 @@ PAGINAS_HTML = {
     "CCEE - Dados Abertos": "https://dadosabertos.ccee.org.br/",
     "ONS - Dados Abertos": "https://dados.ons.org.br/",
     "H2 Brazil (GIZ-MME)": "https://h2brazil.com.br/",
-    "H2 Brazil (GIZ-EPE) - Portfólio de Projetos": "https://h2brazil.com.br/portfolio-de-projetos/",
-    "EPE - Painel Hidrogênio no Brasil (StoryMap)": URL_STORYMAP_EPE_H2,
+    # OBS: o "Painel Hidrogênio Brasil" da EPE (StoryMap em JavaScript,
+    # https://gisepeprd2.epe.gov.br/arcgisportal/apps/storymaps/stories/68332aaa3fc64524a656583e1367daa3)
+    # NÃO é uma fonte HTML separada — é só a interface visual pública da MESMA
+    # camada ArcGIS "H2_PROJETOS" que já coletamos via descobrir_camadas_arcgis_h2()
+    # (confirmado: o painel mostra ~30 projetos, e a camada Projetos retorna 31).
+    # Por isso não há uma entrada de scraping HTML para ele aqui — tentar
+    # raspar o StoryMap diretamente não funcionaria mesmo (é uma SPA em JS) e
+    # seria redundante com o que já coletamos pela API REST.
 }
 
 EXTENSOES_DADOS = (".xlsx", ".xls", ".csv", ".json")
@@ -245,10 +242,6 @@ PASTA_HISTORICO = PASTA_SAIDA / "historico"
 ARQUIVAR_EXECUCAO_ANTERIOR = True
 
 # --- Fontes que são SPAs em JavaScript (candidatas ao Selenium opcional) --
-FONTES_STORYMAP_REFERENCIA = {
-    "EPE - Painel Hidrogênio no Brasil (StoryMap)",
-}
-
 FONTES_SPA_JAVASCRIPT = {
     "CCEE - Dados Abertos",
     "ONS - Dados Abertos",
@@ -305,38 +298,6 @@ def normalizar_texto(texto: str) -> str:
     forma = unicodedata.normalize("NFKD", texto)
     sem_acento = "".join(c for c in forma if not unicodedata.combining(c))
     return sem_acento.lower()
-
-
-def limpar_valor(valor):
-    """Normaliza células vazias/ruins sem transformar ausência em zero."""
-    if valor is None:
-        return None
-    try:
-        if pd.isna(valor):
-            return None
-    except (TypeError, ValueError):
-        pass
-    texto = str(valor).strip()
-    if not texto:
-        return None
-    vazio = {"nan", "nat", "none", "null", "nulo", "na", "n/a", "nd", "n.d.", "-", "--", "sem informacao", "sem informação", "nao informado", "não informado"}
-    if normalizar_texto(texto) in {normalizar_texto(x) for x in vazio}:
-        return None
-    return texto
-
-
-def limpar_dataframe(df: pd.DataFrame) -> pd.DataFrame:
-    """Remove strings que representam ausência e preserva NaN como ausência real."""
-    if df is None or df.empty:
-        return df
-    out = df.copy()
-    for coluna in out.columns:
-        out[coluna] = out[coluna].map(limpar_valor)
-    return out
-
-
-def texto_nao_vazio(valor) -> bool:
-    return limpar_valor(valor) is not None
 
 
 def contexto_e_relevante(*textos: str) -> bool:
@@ -859,7 +820,14 @@ def _adicionar_item_arquivo(nome_fonte: str, titulo: str, url: str, url_pagina: 
     if not (eh_dado or eh_extra):
         return False
 
-    if not contexto_e_relevante(titulo, url, url_pagina):
+    # IMPORTANTE: a relevância é julgada só pelo título/URL do PRÓPRIO
+    # arquivo — nunca pela página onde ele foi encontrado (url_pagina).
+    # Incluir a página-mãe na checagem inflava falsos positivos: uma página
+    # institucional inteira sobre hidrogênio (ex.: a página de hidrogênio da
+    # ANP) sempre "passava" no filtro, então QUALQUER arquivo linkado nela —
+    # até a agenda de compromissos dos diretores, sem nenhuma relação com H2
+    # — era aceito só por estar hospedado ali perto.
+    if not contexto_e_relevante(titulo, url):
         return False
 
     chave = (normalizar_texto(nome_fonte), url.rstrip("/").lower())
@@ -1102,8 +1070,17 @@ def importar_entrada_manual():
 # Fontes não listadas aqui não entram na base padronizada (mas continuam
 # disponíveis "cruas" em dados_h2/brutos/).
 MAPEAMENTO_CAMPOS_PADRAO = {
-    "projetos": {  # camada "Projetos" da EPE (H2_PROJETOS_202410, H2_PROJETOS_BIO etc.)
+    # camada "Projetos" da EPE (H2_PROJETOS_202410, H2_PROJETOS_BIO etc.) —
+    # é a mesma base que alimenta o painel público "Hidrogênio Brasil":
+    # https://gisepeprd2.epe.gov.br/arcgisportal/apps/storymaps/stories/68332aaa3fc64524a656583e1367daa3
+    # ATENÇÃO: essa camada NÃO tem uma coluna separada de empresa — o campo
+    # "Nome" já É o nome da empresa/proponente do projeto (ex.: "Fortescue",
+    # "Qair", "UFRJ"), confirmado comparando com o painel público acima.
+    # Por isso mapeamos "Nome" tanto para nome_projeto quanto para
+    # empresa_consorcio (o mesmo valor nos dois, na falta de um campo próprio).
+    "projetos": {
         "nome_projeto": "Nome",
+        "empresa_consorcio": "Nome",
         "capacidade": "Capacidade",
         "aplicacao_final": "Finalidade",
         "status_maturidade": "Estagio",
@@ -1208,64 +1185,48 @@ CAMPOS_H2V = [
     "fonte_renovavel", "produto_final", "materia_prima", "investimento",
     "moeda_investimento", "tipo_parceria", "status_maturidade", "fase",
     "data_anuncio", "previsao_operacao", "aplicacao_final", "descricao",
-    "url_fonte", "arquivo_origem",
-    "qualidade_dado", "campos_preenchidos", "campos_faltantes"
+    "url_fonte", "arquivo_origem"
 ]
 
 ALIASES_H2V = {
-    "nome_projeto": ["nome", "nome do projeto", "projeto", "nome projeto", "project", "project name", "titulo", "title", "empreendimento", "nome empreendimento", "projecto"],
-    "empresa_consorcio": ["empresa", "empresa responsavel", "empresa responsável", "company", "developer", "owner", "desenvolvedor", "responsavel", "responsável", "promotor", "proponente", "consorcio", "consórcio"],
+    "nome_projeto": ["nome", "projeto", "nome projeto", "project", "project name", "titulo", "title", "empreendimento"],
+    "empresa_consorcio": ["empresa", "company", "developer", "owner", "desenvolvedor", "responsavel", "promotor"],
     "parceiros": ["parceiros", "partners", "socios", "sócios", "consorcio"],
     "pais": ["pais", "país", "country"],
-    "estado_regiao": ["estado", "uf", "sigla uf", "state", "regiao", "região", "region"],
-    "cidade_porto_hub": ["municipio", "município", "cidade", "city", "municipality", "municipio cidade", "porto", "hub", "polo"],
-    "localizacao_bruta": ["local", "localizacao", "localização", "location", "ubicacion", "endereco", "endereço", "local do projeto", "localidade"],
+    "estado_regiao": ["estado", "uf", "state", "regiao", "região", "region"],
+    "cidade_porto_hub": ["municipio", "município", "cidade", "city", "municipality", "porto", "hub"],
+    "localizacao_bruta": ["local", "localizacao", "localização", "location", "ubicacion", "endereco", "endereço"],
     "latitude": ["latitude", "lat", "_latitude"],
     "longitude": ["longitude", "long", "lon", "_longitude"],
-    "capacidade_mw": ["capacidade", "capacidade mw", "capacity", "capacity mw", "potencia", "potência", "installed capacity", "potencia instalada", "capacidade de eletrolise", "capacidade de eletrólise", "electrolysis capacity", "electrolyzer capacity", "potencia eletrolisador", "potência eletrolisador", "mw"],
+    "capacidade_mw": ["capacidade", "capacity", "capacity mw", "potencia", "potência", "installed capacity", "potencia instalada", "capacidade de eletrolise", "capacidade de eletrólise", "electrolysis capacity", "electrolyzer capacity", "potencia eletrolisador", "potência eletrolisador"],
     "producao_t_ano": ["producao", "produção", "production", "production capacity", "capacidade de producao", "capacidade de produção", "capacidad de produccion", "t/ano", "t ano", "toneladas por ano", "tonnes per year"],
     "producao_kg_dia": ["kg/dia", "kg dia", "kg/day", "kg day", "production kg/day"],
-    "tecnologia_eletrolise": ["tecnologia", "tecnologia eletrolise", "tecnologia de eletrolise", "tecnologia de eletrólise", "technology", "tipo de eletrolisador", "tipo de electrolizador", "electrolyzer type", "electrolyser type", "eletrolisador"],
+    "tecnologia_eletrolise": ["tecnologia", "technology", "tipo de eletrolisador", "tipo de electrolizador", "electrolyzer type", "electrolyser type", "eletrolisador"],
     "fonte_renovavel": ["fonte renovavel", "fonte renovável", "fonte de energia", "fonte de alimentação", "fuente de alimentacion", "power source", "energy source", "renewable source"],
     "produto_final": ["produto", "produto final", "product", "output", "derivado"],
     "materia_prima": ["materia prima", "matéria prima", "feedstock", "raw material"],
     "investimento": ["investimento", "investment", "inversion", "valor", "investment value"],
     "moeda_investimento": ["moeda", "currency"],
     "tipo_parceria": ["tipo parceria", "partnership", "partnership type", "modelo de negocio", "modelo de negócio"],
-    "status_maturidade": ["status", "situacao", "situação", "project status", "maturity", "maturidade", "estagio", "estágio", "fase projeto"],
-    "fase": ["fase", "stage", "phase", "estagio", "estágio", "etapa"],
+    "status_maturidade": ["status", "situacao", "situação", "project status", "maturity", "maturidade"],
+    "fase": ["fase", "stage", "phase", "estagio", "estágio"],
     "data_anuncio": ["data anuncio", "data de anuncio", "announcement date", "announcement"],
     "previsao_operacao": ["previsao operacao", "previsão operação", "data operacao", "data de operacao", "operation date", "inauguracao", "inauguración"],
-    "aplicacao_final": ["finalidade", "aplicacao", "aplicação", "uso", "use", "end use", "application", "aplicacao final", "aplicação final"],
+    "aplicacao_final": ["finalidade", "aplicacao", "aplicação", "uso", "use", "end use", "application"],
     "descricao": ["descricao", "descrição", "description", "descripcion", "detalhes", "details", "project description"]
 }
 
 def _coluna_h2v(colunas, aliases):
-    """Localiza uma coluna por nome exato normalizado e, depois, por tokens.
-    Evita que uma coluna genérica seja escolhida apenas por conter uma palavra.
-    """
-    norm = {c: normalizar_texto(str(c).replace("_", " ").replace("-", " ")).strip() for c in colunas}
-    als = [normalizar_texto(a).strip() for a in aliases]
-
-    # 1) correspondência exata
+    norm={c: normalizar_texto(str(c).replace('_',' ').replace('-',' ')).strip() for c in colunas}
+    als=[normalizar_texto(a).strip() for a in aliases]
     for a in als:
-        for c, n in norm.items():
-            if n == a:
+        for c,n in norm.items():
+            if n==a:
                 return c
-
-    # 2) correspondência por conjunto de palavras, preferindo a coluna mais curta
-    candidatos = []
     for a in als:
-        tokens = [t for t in a.split() if t]
-        if not tokens:
-            continue
-        for c, n in norm.items():
-            nt = set(n.split())
-            if all(t in nt for t in tokens):
-                candidatos.append((len(n), c))
-    if candidatos:
-        candidatos.sort(key=lambda x: x[0])
-        return candidatos[0][1]
+        for c,n in norm.items():
+            if a in n or n in a:
+                return c
     return None
 
 def _numero_h2v(valor):
@@ -1292,291 +1253,95 @@ def _producao_t_ano(valor):
     if 't/dia' in t or 'ton dia' in t: return x*365
     return x
 
-def _calcular_qualidade_linha(linha: pd.Series) -> tuple[str, int, str]:
-    """Classifica a completude sem inventar dados."""
-    campos_nucleo = [
-        "nome_projeto", "empresa_consorcio", "estado_regiao",
-        "cidade_porto_hub", "localizacao_bruta", "capacidade_mw",
-        "producao_t_ano", "tecnologia_eletrolise", "aplicacao_final",
-        "status_maturidade",
-    ]
-    preenchidos = [c for c in campos_nucleo if texto_nao_vazio(linha.get(c))]
-    faltantes = [c for c in campos_nucleo if c not in preenchidos]
-    n = len(preenchidos)
-    if n >= 8:
-        qualidade = "Completo"
-    elif n >= 4:
-        qualidade = "Parcial"
-    else:
-        qualidade = "Mínimo"
-    return qualidade, n, "; ".join(faltantes)
-
-
 def gerar_base_h2v_multifonte():
     log.info("== Padronizando projetos H2V de todas as fontes coletadas ==")
-    frames = []
+    frames=[]
     ignorados_infra = 0
-    arquivos_lidos = 0
-
     for item in ITENS_ENCONTRADOS:
-        if not item.caminho_local:
-            continue
-
-        # A EPE publica camadas de referência (Estados, Municípios, Resíduo etc.).
-        # Para a base de projetos, somente a camada chamada literalmente
-        # "Projetos" entra. As demais continuam preservadas em brutos/.
+        if not item.caminho_local: continue
+        # A EPE publica dezenas de camadas ArcGIS que são dados de REFERÊNCIA
+        # (Estados, Municípios, Resíduo por município, Bio_H2, Tot_H2 etc.),
+        # não projetos de hidrogênio propriamente ditos. Sem esse filtro, uma
+        # tabela como "Resíduo por município" (milhares de linhas) inflava a
+        # base inteira, já que suas colunas (Município/Local/UF) batem por
+        # acidente com os apelidos de localização de projeto. Só entram aqui
+        # as camadas da EPE cujo nome é literalmente "Projetos" — as demais
+        # fontes (IEA, ANEEL, EIA, HTML institucional) não são afetadas por
+        # esse filtro, pois presumivelmente já são listagens de projetos.
         if item.fonte.startswith("EPE - "):
             if normalizar_texto(_nome_da_camada(item.fonte)) != "projetos":
                 ignorados_infra += 1
                 continue
-
-        caminho = Path(item.caminho_local)
-        if not caminho.exists() or caminho.suffix.lower() not in (".csv", ".xlsx", ".xls", ".json"):
-            continue
-
+        caminho=Path(item.caminho_local)
+        if not caminho.exists() or caminho.suffix.lower() not in ('.csv','.xlsx','.xls','.json'): continue
         try:
-            if caminho.suffix.lower() == ".csv":
-                try:
-                    tabelas = [pd.read_csv(caminho, sep=None, engine="python", encoding="utf-8")]
-                except UnicodeDecodeError:
-                    tabelas = [pd.read_csv(caminho, sep=None, engine="python", encoding="latin-1")]
-            elif caminho.suffix.lower() in (".xlsx", ".xls"):
-                xl = pd.ExcelFile(caminho)
-                tabelas = [xl.parse(a) for a in xl.sheet_names]
-            else:
-                tabelas = [pd.read_json(caminho)]
+            if caminho.suffix.lower()=='.csv':
+                try: tabelas=[pd.read_csv(caminho,sep=None,engine='python',encoding='utf-8')]
+                except UnicodeDecodeError: tabelas=[pd.read_csv(caminho,sep=None,engine='python',encoding='latin-1')]
+            elif caminho.suffix.lower() in ('.xlsx','.xls'):
+                xl=pd.ExcelFile(caminho); tabelas=[xl.parse(a) for a in xl.sheet_names]
+            else: tabelas=[pd.read_json(caminho)]
         except Exception as e:
-            log.warning(f"  Falha ao ler {caminho.name}: {e}")
-            continue
-
+            log.warning(f"  Falha ao ler {caminho.name}: {e}"); continue
         for df in tabelas:
-            if df.empty:
-                continue
-            arquivos_lidos += 1
-            df = limpar_dataframe(df)
+            if df.empty: continue
+            out=pd.DataFrame(index=df.index)
+            for campo in CAMPOS_H2V: out[campo]=None
+            for campo,aliases in ALIASES_H2V.items():
+                c=_coluna_h2v(df.columns,aliases)
+                if c is not None: out[campo]=df[c]
+            out['fonte_dado']=item.fonte; out['url_fonte']=item.url; out['arquivo_origem']=str(caminho)
+            out['pais']=out['pais'].fillna('Brasil')
+            # A camada "Projetos" da EPE (mesma base do painel público
+            # "Hidrogênio Brasil") não tem coluna própria de empresa — o
+            # campo "Nome" já É o nome da empresa/proponente (confirmado
+            # comparando com https://gisepeprd2.epe.gov.br/arcgisportal/apps/storymaps/stories/68332aaa3fc64524a656583e1367daa3).
+            # Sem isso, dim_empresas ficava vazia para essa fonte.
+            if item.fonte.startswith("EPE - ") and normalizar_texto(_nome_da_camada(item.fonte)) == "projetos":
+                out['empresa_consorcio'] = out['empresa_consorcio'].fillna(out['nome_projeto'])
 
-            out = pd.DataFrame(index=df.index)
-            for campo in CAMPOS_H2V:
-                out[campo] = None
+            # Diagnóstico: avisa quais campos ficaram 100% vazios nesta
+            # fonte — evita descobrir isso só depois de exportar e inspecionar
+            # manualmente uma dimensão vazia no Power BI.
+            campos_vazios = [c for c in CAMPOS_H2V if c not in ('id_projeto',) and out[c].isna().all()]
+            if campos_vazios:
+                log.info(f"    ({item.fonte}: campo(s) sem nenhum dado nesta fonte: {', '.join(campos_vazios)})")
 
-            # O algoritmo de aliases é a primeira tentativa.
-            for campo, aliases in ALIASES_H2V.items():
-                c = _coluna_h2v(df.columns, aliases)
-                if c is not None:
-                    out[campo] = df[c]
-
-            # Mapeamento explícito da EPE: garante as colunas conhecidas do
-            # StoryMap/Feature Layer mesmo quando o nome não casa com um alias.
-            if item.fonte.startswith("EPE - "):
-                mapa_epe = {
-                    "nome_projeto": ["Nome", "NOME"],
-                    "capacidade_mw": ["Capacidade", "CAPACIDADE"],
-                    "aplicacao_final": ["Finalidade", "FINALIDADE"],
-                    "status_maturidade": ["Estagio", "Estágio", "ESTAGIO"],
-                    "localizacao_bruta": ["Local", "LOCAL"],
-                    "investimento": ["valor", "Valor", "VALOR"],
-                    "latitude": ["_latitude"],
-                    "longitude": ["_longitude"],
-                }
-                for campo, candidatos in mapa_epe.items():
-                    c = _coluna_h2v(df.columns, candidatos)
-                    if c is not None:
-                        out[campo] = out[campo].where(out[campo].notna(), df[c])
-
-            out["fonte_dado"] = item.fonte
-            out["url_fonte"] = item.url
-            out["arquivo_origem"] = str(caminho)
-            out["pais"] = out["pais"].map(limpar_valor).fillna("Brasil")
-
-            texto = df.fillna("").astype(str).agg(" ".join, axis=1).map(normalizar_texto)
-
-            # Inferências somente quando o campo inteiro estiver ausente.
-            if out["status_maturidade"].isna().all():
-                out["status_maturidade"] = texto.map(
-                    lambda x: (
-                        "Em operação" if ("operacao" in x or "operational" in x)
-                        else "Em construção" if ("construcao" in x or "construction" in x)
-                        else "Em desenvolvimento" if ("desenvolvimento" in x or "development" in x)
-                        else "Planejado" if ("planejado" in x or "planned" in x)
-                        else None
-                    )
-                )
-
-            # Normalização numérica. Ausência permanece como None/NaN; nunca vira 0.
-            out["capacidade_mw"] = out["capacidade_mw"].map(_numero_h2v)
-            out["producao_t_ano"] = out["producao_t_ano"].map(_producao_t_ano)
-            out["producao_kg_dia"] = out["producao_kg_dia"].map(_numero_h2v)
-            out["investimento"] = out["investimento"].map(_numero_h2v)
-            out["latitude"] = out["latitude"].map(_numero_h2v)
-            out["longitude"] = out["longitude"].map(_numero_h2v)
-
-            # Limpa novamente os textos depois do mapeamento.
-            for col in out.columns:
-                if col not in ("capacidade_mw", "producao_t_ano", "producao_kg_dia", "investimento", "latitude", "longitude"):
-                    out[col] = out[col].map(limpar_valor)
-
-            # Remove linhas que não possuem nenhum indício de projeto.
-            campos_indicio = [
-                "nome_projeto", "empresa_consorcio", "localizacao_bruta",
-                "estado_regiao", "cidade_porto_hub", "capacidade_mw",
-                "producao_t_ano", "aplicacao_final"
-            ]
-            out = out[out[campos_indicio].notna().any(axis=1)]
-            if out.empty:
-                continue
-
-            # Projeto sem nome, mas com dados, recebe apenas um rótulo técnico.
-            # Isso evita linhas vazias nas dimensões sem inventar um nome real.
-            out["nome_projeto"] = out["nome_projeto"].fillna("Projeto não identificado")
-
-            qualidades = out.apply(_calcular_qualidade_linha, axis=1)
-            out["qualidade_dado"] = qualidades.map(lambda x: x[0])
-            out["campos_preenchidos"] = qualidades.map(lambda x: x[1])
-            out["campos_faltantes"] = qualidades.map(lambda x: x[2])
-
-            frames.append(out[CAMPOS_H2V])
-
+            texto=df.fillna('').astype(str).agg(' '.join,axis=1).map(normalizar_texto)
+            if out['status_maturidade'].isna().all():
+                out['status_maturidade']=texto.map(lambda x: 'Em operação' if ('operacao' in x or 'operational' in x) else 'Em construção' if 'construcao' in x or 'construction' in x else 'Em desenvolvimento' if 'desenvolvimento' in x or 'development' in x else 'Planejado' if 'planejado' in x or 'planned' in x else None)
+            out['capacidade_mw']=out['capacidade_mw'].map(_numero_h2v)
+            out['producao_t_ano']=out['producao_t_ano'].map(_producao_t_ano)
+            out['producao_kg_dia']=out['producao_kg_dia'].map(_numero_h2v)
+            out['investimento']=out['investimento'].map(_numero_h2v)
+            out['latitude']=out['latitude'].map(_numero_h2v); out['longitude']=out['longitude'].map(_numero_h2v)
+            out=out[out[['nome_projeto','empresa_consorcio','localizacao_bruta','capacidade_mw','producao_t_ano']].notna().any(axis=1)]
+            if not out.empty: frames.append(out)
     if ignorados_infra:
         log.info(f"  {ignorados_infra} camada(s) de referência/infraestrutura da EPE ignorada(s) (não são projetos).")
-    log.info(f"  {arquivos_lidos} arquivo(s)/planilha(s) lido(s) para padronização.")
-
     if not frames:
-        log.warning("  Nenhum projeto estruturado encontrado nas fontes coletadas.")
-        return None
-
-    df = pd.concat(frames, ignore_index=True)
-
-    # Remove duplicatas exatas antes da resolução de entidades.
-    subset_dedup = ["nome_projeto", "empresa_consorcio", "estado_regiao", "cidade_porto_hub", "fonte_dado"]
-    df = df.drop_duplicates(subset=subset_dedup, keep="first").reset_index(drop=True)
-    df["id_projeto"] = [f"H2V-{i:05d}" for i in range(1, len(df) + 1)]
-
-    destino = PASTA_SAIDA / "base_projetos_h2v_multifonte.xlsx"
-    csv = PASTA_SAIDA / "base_projetos_h2v_multifonte.csv"
-    df[CAMPOS_H2V].to_excel(destino, index=False)
-    df[CAMPOS_H2V].to_csv(csv, index=False, encoding="utf-8-sig")
-    log.info(f"  {len(df)} projeto(s) H2V padronizado(s): {destino.name}")
-    log.info(f"  Qualidade: {df['qualidade_dado'].value_counts(dropna=False).to_dict()}")
+        log.warning('  Nenhum projeto estruturado encontrado nas fontes coletadas.'); return None
+    df=pd.concat(frames,ignore_index=True)
+    df['nome_projeto']=df['nome_projeto'].fillna('Projeto não identificado')
+    df=df.drop_duplicates(subset=['nome_projeto','empresa_consorcio','estado_regiao','cidade_porto_hub'],keep='first').reset_index(drop=True)
+    df['id_projeto']=[f'H2V-{i:05d}' for i in range(1,len(df)+1)]
+    destino=PASTA_SAIDA/'base_projetos_h2v_multifonte.xlsx'; csv=PASTA_SAIDA/'base_projetos_h2v_multifonte.csv'
+    df[CAMPOS_H2V].to_excel(destino,index=False); df[CAMPOS_H2V].to_csv(csv,index=False,encoding='utf-8-sig')
+    log.info(f'  {len(df)} projeto(s) H2V padronizado(s): {destino.name}')
     return df[CAMPOS_H2V]
 
-def _dimensao_com_nao_informado(df: pd.DataFrame, colunas: list[str], nome: str) -> pd.DataFrame:
-    """Cria dimensão com chave estável e membro explícito 'Não informado'."""
-    d = df[colunas].copy()
-    for c in colunas:
-        d[c] = d[c].map(limpar_valor).fillna("Não informado")
-    d = d.drop_duplicates().reset_index(drop=True)
-    d.insert(0, "id_" + nome, range(1, len(d) + 1))
-    d.to_csv(PASTA_SAIDA / "modelo_estrela" / f"dim_{nome}.csv", index=False, encoding="utf-8-sig")
-    return d
-
-
 def gerar_modelo_estrela_h2v(df):
-    if df is None or df.empty:
-        return
-
-    pasta = PASTA_SAIDA / "modelo_estrela"
-    pasta.mkdir(parents=True, exist_ok=True)
-
-    fontes = _dimensao_com_nao_informado(df, ["fonte_dado"], "fontes")
-    estados = _dimensao_com_nao_informado(df, ["pais", "estado_regiao"], "estados")
-    empresas = _dimensao_com_nao_informado(df, ["empresa_consorcio"], "empresas")
-    status = _dimensao_com_nao_informado(df, ["status_maturidade", "fase"], "status")
-    tecnologias = _dimensao_com_nao_informado(df, ["tecnologia_eletrolise"], "tecnologias")
-    aplicacoes = _dimensao_com_nao_informado(df, ["aplicacao_final", "produto_final"], "aplicacoes")
-
-    # Localização recebe uma chave textual própria para evitar problemas de merge
-    # quando latitude/longitude estão ausentes (NaN) ou são numéricas.
-    local_cols = ["pais", "estado_regiao", "cidade_porto_hub", "localizacao_bruta", "latitude", "longitude"]
-    base_local = df[["id_projeto"] + local_cols].copy()
-    for col in local_cols:
-        base_local[col] = base_local[col].map(limpar_valor)
-
-    def chave_localizacao(linha):
-        partes = []
-        for col in local_cols:
-            valor = linha.get(col)
-            if col in ("latitude", "longitude") and valor is not None:
-                try:
-                    valor = round(float(valor), 6)
-                except (TypeError, ValueError):
-                    pass
-            partes.append(normalizar_texto(str(valor)) if valor is not None else "nao informado")
-        return "|".join(partes)
-
-    base_local["chave_localizacao"] = base_local.apply(chave_localizacao, axis=1)
-    localizacoes = base_local[local_cols + ["chave_localizacao"]].drop_duplicates().reset_index(drop=True)
-    localizacoes.insert(0, "id_localizacao", range(1, len(localizacoes) + 1))
-    localizacoes.to_csv(pasta / "dim_localizacao.csv", index=False, encoding="utf-8-sig")
-
-    fato = df[[
-        "id_projeto", "fonte_dado", "pais", "estado_regiao",
-        "empresa_consorcio", "status_maturidade", "fase",
-        "tecnologia_eletrolise", "aplicacao_final", "produto_final",
-        "capacidade_mw", "producao_t_ano", "producao_kg_dia",
-        "investimento", "moeda_investimento", "data_anuncio",
-        "previsao_operacao", "fonte_renovavel", "materia_prima",
-        "tipo_parceria", "url_fonte", "qualidade_dado",
-        "campos_preenchidos", "campos_faltantes",
-    ]].copy()
-
-    for col in [
-        "fonte_dado", "pais", "estado_regiao", "empresa_consorcio",
-        "status_maturidade", "fase", "tecnologia_eletrolise",
-        "aplicacao_final", "produto_final",
-    ]:
-        fato[col] = fato[col].map(limpar_valor)
-
-    fato = fato.merge(fontes, on=["fonte_dado"], how="left")
-    fato = fato.merge(estados, on=["pais", "estado_regiao"], how="left")
-    fato = fato.merge(empresas, on=["empresa_consorcio"], how="left")
-    fato = fato.merge(status, on=["status_maturidade", "fase"], how="left")
-    fato = fato.merge(tecnologias, on=["tecnologia_eletrolise"], how="left")
-    fato = fato.merge(aplicacoes, on=["aplicacao_final", "produto_final"], how="left")
-
-    fato = fato.merge(
-        base_local[["id_projeto", "chave_localizacao"]],
-        on="id_projeto",
-        how="left",
-    )
-    fato = fato.merge(
-        localizacoes[["id_localizacao", "chave_localizacao"]],
-        on="chave_localizacao",
-        how="left",
-    ).drop(columns=["chave_localizacao"])
-
-    # Caso algum registro não encontre a dimensão, procura a linha explícita
-    # 'Não informado'. Se ela não existir, mantém a FK como ausente em vez de
-    # apontar silenciosamente para outro registro.
-    def id_nao_informado(dim, id_col):
-        mascara = dim.astype(str).eq("Não informado").any(axis=1)
-        if mascara.any():
-            return int(dim.loc[mascara, id_col].iloc[0])
-        return None
-
-    defaults = {
-        "id_fontes": id_nao_informado(fontes, "id_fontes"),
-        "id_estados": id_nao_informado(estados, "id_estados"),
-        "id_empresas": id_nao_informado(empresas, "id_empresas"),
-        "id_status": id_nao_informado(status, "id_status"),
-        "id_tecnologias": id_nao_informado(tecnologias, "id_tecnologias"),
-        "id_aplicacoes": id_nao_informado(aplicacoes, "id_aplicacoes"),
-        "id_localizacao": id_nao_informado(localizacoes, "id_localizacao"),
-    }
-    for coluna, valor in defaults.items():
-        if valor is not None and coluna in fato.columns:
-            fato[coluna] = fato[coluna].fillna(valor)
-
-    fato.to_csv(pasta / "fato_projetos_h2v.csv", index=False, encoding="utf-8-sig")
-    with pd.ExcelWriter(pasta / "modelo_estrela_h2v.xlsx", engine="openpyxl") as w:
-        fato.to_excel(w, sheet_name="Fato_Projetos_H2V", index=False)
-        fontes.to_excel(w, sheet_name="Dim_Fontes", index=False)
-        estados.to_excel(w, sheet_name="Dim_Estados", index=False)
-        empresas.to_excel(w, sheet_name="Dim_Empresas", index=False)
-        status.to_excel(w, sheet_name="Dim_Status", index=False)
-        tecnologias.to_excel(w, sheet_name="Dim_Tecnologias", index=False)
-        aplicacoes.to_excel(w, sheet_name="Dim_Aplicacoes", index=False)
-        localizacoes.to_excel(w, sheet_name="Dim_Localizacao", index=False)
-    log.info(f"  Modelo estrela gerado em {pasta}/ sem chaves vazias nas dimensões.")
+    if df is None or df.empty: return
+    pasta=PASTA_SAIDA/'modelo_estrela'; pasta.mkdir(parents=True,exist_ok=True)
+    def dim(cols,nome):
+        d=df[cols].drop_duplicates().reset_index(drop=True); d.insert(0,'id_'+nome,range(1,len(d)+1)); d.to_csv(pasta/f'dim_{nome}.csv',index=False,encoding='utf-8-sig'); return d
+    fontes=dim(['fonte_dado'],'fontes'); estados=dim(['pais','estado_regiao'],'estados'); empresas=dim(['empresa_consorcio'],'empresas'); status=dim(['status_maturidade','fase'],'status'); tecnologias=dim(['tecnologia_eletrolise'],'tecnologias'); aplicacoes=dim(['aplicacao_final','produto_final'],'aplicacoes'); localizacoes=dim(['pais','estado_regiao','cidade_porto_hub','localizacao_bruta','latitude','longitude'],'localizacao')
+    fato=df[['id_projeto','fonte_dado','pais','estado_regiao','empresa_consorcio','status_maturidade','fase','tecnologia_eletrolise','aplicacao_final','produto_final','capacidade_mw','producao_t_ano','producao_kg_dia','investimento','moeda_investimento','data_anuncio','previsao_operacao','fonte_renovavel','materia_prima','tipo_parceria','url_fonte']].copy()
+    fato=fato.merge(fontes,on=['fonte_dado']).merge(estados,on=['pais','estado_regiao']).merge(empresas,on=['empresa_consorcio']).merge(status,on=['status_maturidade','fase']).merge(tecnologias,on=['tecnologia_eletrolise']).merge(aplicacoes,on=['aplicacao_final','produto_final'])
+    fato.to_csv(pasta/'fato_projetos_h2v.csv',index=False,encoding='utf-8-sig')
+    with pd.ExcelWriter(pasta/'modelo_estrela_h2v.xlsx',engine='openpyxl') as w:
+        fato.to_excel(w,sheet_name='Fato_Projetos_H2V',index=False); fontes.to_excel(w,sheet_name='Dim_Fontes',index=False); estados.to_excel(w,sheet_name='Dim_Estados',index=False); empresas.to_excel(w,sheet_name='Dim_Empresas',index=False); status.to_excel(w,sheet_name='Dim_Status',index=False); tecnologias.to_excel(w,sheet_name='Dim_Tecnologias',index=False); aplicacoes.to_excel(w,sheet_name='Dim_Aplicacoes',index=False); localizacoes.to_excel(w,sheet_name='Dim_Localizacao',index=False)
+    log.info(f'  Modelo estrela gerado em {pasta}/')
 
 # --------------------------------------------------------------------------
 # RESOLUÇÃO DE ENTIDADES — Algoritmo 1 do TCC (blocking + similaridade de
@@ -2072,9 +1837,6 @@ def validar_qualidade_dados(df: pd.DataFrame):
     df_problemas.to_excel(destino, index=False)
     log.info(f"  {len(df_problemas)} problema(s) de qualidade encontrados — ver {destino.name}")
 
-    if "qualidade_dado" in df.columns:
-        log.info(f"  Distribuição da qualidade: {df['qualidade_dado'].value_counts(dropna=False).to_dict()}")
-
 
 # --------------------------------------------------------------------------
 # CHECKPOINT INCREMENTAL — evita perder o progresso se a execução cair
@@ -2321,13 +2083,6 @@ def main():
     salvar_checkpoint()
 
     for nome, url in PAGINAS_HTML.items():
-        if nome in FONTES_STORYMAP_REFERENCIA:
-            log.info(
-                f"== Referência EPE registrada: {url} =="
-                " Os dados estruturados do StoryMap são coletados diretamente "
-                "pelos serviços ArcGIS REST da pasta SEE."
-            )
-            continue
         if nome in FONTES_SPA_JAVASCRIPT:
             if USAR_SELENIUM_PARA_SPA:
                 buscar_em_pagina_spa_com_selenium(nome, url)
