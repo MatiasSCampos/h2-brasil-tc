@@ -1,18 +1,17 @@
 ﻿bloco,indice_a,nome_a,fonte_a,indice_b,nome_b,fonte_b,similaridade,fundido
 rio ,0, UFRJ,EPE - H2_PROJETOS_202410 - Projetos,30, UFRJ,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
 port,1,Fortescue,EPE - H2_PROJETOS_202410 - Projetos,31,Fortescue,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
-port,13,EDP,EPE - H2_PROJETOS_202410 - Projetos,43,EDP,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
 port,12,Enegix,EPE - H2_PROJETOS_202410 - Projetos,42,Enegix,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
 port,11,Fortrescue,EPE - H2_PROJETOS_202410 - Projetos,41,Fortrescue,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
-port,16,White Martins,EPE - H2_PROJETOS_202410 - Projetos,21,White Martins,EPE - H2_PROJETOS_202410 - Projetos,1.0,True
-sao ,4,Porto de Santos,EPE - H2_PROJETOS_202410 - Projetos,34,Porto de Santos,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
+port,13,EDP,EPE - H2_PROJETOS_202410 - Projetos,43,EDP,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
 espi,3,Porto Central,EPE - H2_PROJETOS_202410 - Projetos,33,Porto Central,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
 suap,2,Qair,EPE - H2_PROJETOS_202410 - Projetos,32,Qair,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
-angr,10,Angra I e II,EPE - H2_PROJETOS_202410 - Projetos,40,Angra I e II,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
+port,16,White Martins,EPE - H2_PROJETOS_202410 - Projetos,21,White Martins,EPE - H2_PROJETOS_202410 - Projetos,1.0,True
 cama,9,Unigel,EPE - H2_PROJETOS_202410 - Projetos,39,Unigel,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
 fort,7,Neoenergia,EPE - H2_PROJETOS_202410 - Projetos,37,Neoenergia,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
+angr,10,Angra I e II,EPE - H2_PROJETOS_202410 - Projetos,40,Angra I e II,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
+sao ,4,Porto de Santos,EPE - H2_PROJETOS_202410 - Projetos,34,Porto de Santos,EPE - H2_PROJETOS_BIO - Projetos,1.0,True
 port,11,Fortrescue,EPE - H2_PROJETOS_202410 - Projetos,31,Fortescue,EPE - H2_PROJETOS_BIO - Projetos,0.9,True
 port,1,Fortescue,EPE - H2_PROJETOS_202410 - Projetos,41,Fortrescue,EPE - H2_PROJETOS_BIO - Projetos,0.9,True
 port,1,Fortescue,EPE - H2_PROJETOS_202410 - Projetos,11,Fortrescue,EPE - H2_PROJETOS_202410 - Projetos,0.9,True
 port,31,Fortescue,EPE - H2_PROJETOS_BIO - Projetos,41,Fortrescue,EPE - H2_PROJETOS_BIO - Projetos,0.9,True
-escr,96,Rosângela Moreira de Araújo,ANP - Dados Abertos,162,Daniela Moreira de Melo,ANP - Dados Abertos,0.6667,False

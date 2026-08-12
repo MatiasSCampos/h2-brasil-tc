@@ -1,258 +1,45 @@
 ﻿id_projeto,fonte_dado,pais,estado_regiao,empresa_consorcio,status_maturidade,fase,tecnologia_eletrolise,aplicacao_final,produto_final,capacidade_mw,producao_t_ano,producao_kg_dia,investimento,moeda_investimento,data_anuncio,previsao_operacao,fonte_renovavel,materia_prima,tipo_parceria,url_fonte,id_fontes,id_estados,id_empresas,id_status,id_tecnologias,id_aplicacoes
-H2V-00001,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,1,Projeto Piloto,,Onibus,,0.0,1.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,1,1,1
-H2V-00002,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,2,Pré-contrato,,H2V,,305505.0,2.0,,6000.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,2,1,2
-H2V-00003,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,3,MoU,,H2V,,488000.0,3.0,,3900.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,3,1,2
-H2V-00004,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,4, ,,H2V,,0.0,4.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,4,1,2
-H2V-00005,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,5, ,,H2V,,0.0,5.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,5,1,2
-H2V-00006,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,6,Piloto,,H2V,,46.5,6.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,6,1,2
-H2V-00007,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,6,P&D,,H2V - UHE e PV),,10.0,6.0,,45.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,7,1,3
-H2V-00008,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,7,Mou,,H2V - Onibus,,0.0,7.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,8,1,4
-H2V-00009,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,8,2023,,Reforma a vapor BioCH4 e NH3V,,240.0,8.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,9,1,5
-H2V-00010,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,9,2022,,Fertilizante (NH3V),,600000.0,9.0,,1500.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,10,1,6
-H2V-00011,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,10,P&D,,Purificação de H2,,300.0,10.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,11,1,7
-H2V-00012,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,11,MoU,,H2V,,250000.0,11.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,12,1,2
-H2V-00013,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,12,MoU,,H2V,,600000.0,12.0,,5400.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,13,1,2
-H2V-00014,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,13,P&D,,H2V,,2000.0,13.0,,42.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,14,1,2
-H2V-00015,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,14,Mou,,H2V,,488000.0,14.0,,6900.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,15,1,2
-H2V-00016,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,15,MoU,,Exportação de H2V,,0.0,15.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,16,1,8
-H2V-00017,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,16,MoU,,H2V,,0.0,16.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,17,1,2
-H2V-00018,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,17,MoU,,Exportação - H2V,,0.0,17.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,18,1,9
-H2V-00019,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,18,MoU,,H2V - Eol offshore,,0.0,18.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,19,1,10
-H2V-00020,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,0,Pré-contrato,,NH3V,,800000.0,0.0,,2000.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,20,1,11
-H2V-00021,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,0,MoU,,H2V e NH3,,365000.0,0.0,,4000.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,21,1,12
-H2V-00022,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,0, ,,H2V,,0.0,0.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,22,1,2
-H2V-00023,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,0,P&D,,Onibus,,390.0,0.0,,50.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,23,1,1
-H2V-00024,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,0,P&D,,Transportes,,0.0,0.0,,12.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,23,1,13
-H2V-00025,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,0,MoU,,Fertilizantes,,500000.0,0.0,,43000.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,21,1,14
-H2V-00026,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,0,Projeto,,NH3,,120000.0,0.0,,1034.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,24,1,15
-H2V-00027,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,0,MoU,,H2V,,500000.0,0.0,,50000.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,21,1,2
-H2V-00028,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,0,H2V,, ,,0.0,0.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,25,1,16
-H2V-00029,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,0,MoU/LA - Processo nº 010661-0567/24-7,,Produção de amônia de baixo carbono,,4000.0,0.0,,65.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,26,1,17
-H2V-00030,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,,0,MoU/LA,,Produção de amônia de baixo carbono,,2000.0,0.0,,45.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,27,1,17
-H2V-00031,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,,0,Projeto Piloto,,Onibus,,0.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,1,28,1,1
-H2V-00032,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,,0,MoU,,H2V,,250000.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,1,21,1,2
-H2V-00033,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,,0,MoU,,H2V,,488000.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,1,21,1,2
-H2V-00034,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,,0, ,,H2V,,0.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,1,22,1,2
-H2V-00035,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,,0, ,,H2V,,0.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,1,22,1,2
-H2V-00036,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,,0,Piloto,,H2V,,100000.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,1,29,1,2
-H2V-00037,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,,0,P&D,,H2V - UHE e PV),,10.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,1,23,1,3
-H2V-00038,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,,0,Mou,,H2V - Onibus,,0.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,1,30,1,4
-H2V-00039,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,,0,2023,,Reforma a vapor BioCH4 e NH3V,,240.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,1,31,1,5
-H2V-00040,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,,0,2022,,Fertilizante (NH3V),,60000.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,1,32,1,6
-H2V-00041,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,,0,P&D,,Purificação de H2,,300.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,1,23,1,7
-H2V-00042,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,,0,MoU,,H2V,,250000.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,1,21,1,2
-H2V-00043,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,,0,MoU,,H2V,,600000.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,1,21,1,2
-H2V-00044,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,,0,MoU,,H2V,,2000000.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,1,21,1,2
-H2V-00045,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00046,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00047,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00048,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00049,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00050,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00051,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00052,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00053,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00054,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00055,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00056,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00057,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00058,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00059,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00060,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00061,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00062,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00063,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00064,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00065,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00066,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00067,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00068,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00069,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00070,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00071,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00072,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00073,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00074,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00075,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00076,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00077,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00078,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00079,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00080,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00081,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00082,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00083,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00084,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00085,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00086,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00087,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00088,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00089,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00090,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00091,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00092,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00093,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00094,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00095,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00096,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00097,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00098,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00099,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00100,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00101,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00102,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00103,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00104,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00105,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00106,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00107,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00108,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00109,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00110,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00111,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00112,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00113,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00114,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00115,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00116,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00117,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00118,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00119,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00120,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00121,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00122,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00123,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00124,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00125,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00126,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00127,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00128,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00129,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00130,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00131,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00132,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00133,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00134,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00135,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00136,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00137,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00138,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00139,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00140,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00141,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00142,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00143,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00144,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00145,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00146,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00147,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00148,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00149,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00150,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00151,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00152,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00153,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00154,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00155,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00156,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00157,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00158,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00159,ANP - Dados Abertos,Brasil,,,Em operação,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,34,1,18
-H2V-00160,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00161,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00162,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00163,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00164,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00165,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00166,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00167,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00168,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00169,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00170,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00171,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00172,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00173,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00174,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00175,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00176,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00177,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00178,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00179,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00180,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00181,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00182,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00183,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00184,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00185,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00186,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00187,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00188,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00189,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00190,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00191,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00192,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00193,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00194,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00195,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00196,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00197,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00198,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00199,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00200,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00201,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00202,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00203,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00204,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00205,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00206,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00207,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00208,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00209,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00210,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00211,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00212,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00213,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00214,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00215,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00216,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00217,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00218,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00219,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00220,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00221,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00222,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00223,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00224,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00225,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00226,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00227,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00228,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00229,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00230,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00231,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00232,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00233,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00234,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00235,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00236,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00237,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00238,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00239,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00240,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00241,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00242,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00243,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00244,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00245,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00246,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00247,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00248,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00249,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00250,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00251,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00252,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00253,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00254,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00255,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00256,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
-H2V-00257,ANP - Dados Abertos,Brasil,,,,,,,,,,,,,,,,,,https://www.gov.br/anp/pt-br/acesso-a-informacao/institucional/agenda-dirigentes/agendadirigentesate2020.xlsx,3,1,1,33,1,18
+H2V-00001,EPE - H2_PROJETOS_202410 - Projetos,Brasil,, UFRJ,1,Projeto Piloto,,Onibus,,0.0,1.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,1,1,1,1
+H2V-00002,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Fortescue,2,Pré-contrato,,H2V,,305505.0,2.0,,6000.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,2,2,1,2
+H2V-00003,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Qair,3,MoU,,H2V,,488000.0,3.0,,3900.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,3,3,1,2
+H2V-00004,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Porto Central,4, ,,H2V,,0.0,4.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,4,4,1,2
+H2V-00005,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Porto de Santos,5, ,,H2V,,0.0,5.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,5,5,1,2
+H2V-00006,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,UNIFEI,6,Piloto,,H2V,,46.5,6.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,6,6,1,2
+H2V-00007,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,PTI/Furnas,6,P&D,,H2V - UHE e PV),,10.0,6.0,,45.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,7,7,1,3
+H2V-00008,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Neoenergia,7,Mou,,H2V - Onibus,,0.0,7.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,8,8,1,4
+H2V-00009,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Yara/Raízen,8,2023,,Reforma a vapor BioCH4 e NH3V,,240.0,8.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,9,9,1,5
+H2V-00010,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Unigel,9,2022,,Fertilizante (NH3V),,600000.0,9.0,,1500.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,10,10,1,6
+H2V-00011,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Angra I e II,10,P&D,,Purificação de H2,,300.0,10.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,11,11,1,7
+H2V-00012,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Fortrescue,11,MoU,,H2V,,250000.0,11.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,12,12,1,2
+H2V-00013,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Enegix,12,MoU,,H2V,,600000.0,12.0,,5400.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,13,13,1,2
+H2V-00014,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,EDP,13,P&D,,H2V,,2000.0,13.0,,42.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,14,14,1,2
+H2V-00015,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Qair,14,Mou,,H2V,,488000.0,14.0,,6900.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,3,15,1,2
+H2V-00016,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Enerfin,15,MoU,,Exportação de H2V,,0.0,15.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,15,16,1,8
+H2V-00017,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,White Martins,16,MoU,,H2V,,0.0,16.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,16,17,1,2
+H2V-00018,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Neoenergia,17,MoU,,Exportação - H2V,,0.0,17.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,8,18,1,9
+H2V-00019,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Enterprize Energy,18,MoU,,H2V - Eol offshore,,0.0,18.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,17,19,1,10
+H2V-00020,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,AES,0,Pré-contrato,,NH3V,,800000.0,0.0,,2000.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,18,20,1,11
+H2V-00021,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Casa dos Ventos,0,MoU,,H2V e NH3,,365000.0,0.0,,4000.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,19,21,1,12
+H2V-00022,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,White Martins,0, ,,H2V,,0.0,0.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,16,22,1,2
+H2V-00023,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Shell/Raízen/Hytron/Toyota,0,P&D,,Onibus,,390.0,0.0,,50.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,20,23,1,1
+H2V-00024,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Copel,0,P&D,,Transportes,,0.0,0.0,,12.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,21,23,1,13
+H2V-00025,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Atlas Agro,0,MoU,,Fertilizantes,,500000.0,0.0,,43000.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,22,21,1,14
+H2V-00026,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Norte Energia,0,Projeto,,NH3,,120000.0,0.0,,1034.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,23,24,1,15
+H2V-00027,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Solatio,0,MoU,,H2V,,500000.0,0.0,,50000.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,24,21,1,2
+H2V-00028,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,Porto Norte Fluminense,0,H2V,, ,,0.0,0.0,,0.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,25,25,1,16
+H2V-00029,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,HUB Begreen – Tio Hugo,0,MoU/LA - Processo nº 010661-0567/24-7,,Produção de amônia de baixo carbono,,4000.0,0.0,,65.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,26,26,1,17
+H2V-00030,EPE - H2_PROJETOS_202410 - Projetos,Brasil,,HUB Begreen – Usina Escola de amônia na UPF,0,MoU/LA,,Produção de amônia de baixo carbono,,2000.0,0.0,,45.0,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_202410/MapServer/0,1,1,27,27,1,17
+H2V-00031,EPE - H2_PROJETOS_BIO - Projetos,Brasil,, UFRJ,0,Projeto Piloto,,Onibus,,0.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,1,28,1,1
+H2V-00032,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,Fortescue,0,MoU,,H2V,,250000.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,2,21,1,2
+H2V-00033,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,Qair,0,MoU,,H2V,,488000.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,3,21,1,2
+H2V-00034,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,Porto Central,0, ,,H2V,,0.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,4,22,1,2
+H2V-00035,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,Porto de Santos,0, ,,H2V,,0.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,5,22,1,2
+H2V-00036,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,UNIFEI,0,Piloto,,H2V,,100000.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,6,29,1,2
+H2V-00037,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,PTI/Furnas,0,P&D,,H2V - UHE e PV),,10.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,7,23,1,3
+H2V-00038,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,Neoenergia,0,Mou,,H2V - Onibus,,0.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,8,30,1,4
+H2V-00039,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,Yara/Raízen,0,2023,,Reforma a vapor BioCH4 e NH3V,,240.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,9,31,1,5
+H2V-00040,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,Unigel,0,2022,,Fertilizante (NH3V),,60000.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,10,32,1,6
+H2V-00041,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,Angra I e II,0,P&D,,Purificação de H2,,300.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,11,23,1,7
+H2V-00042,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,Fortrescue,0,MoU,,H2V,,250000.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,12,21,1,2
+H2V-00043,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,Enegix,0,MoU,,H2V,,600000.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,13,21,1,2
+H2V-00044,EPE - H2_PROJETOS_BIO - Projetos,Brasil,,EDP,0,MoU,,H2V,,2000000.0,0.0,,,,,,,,,https://gisepeprd2.epe.gov.br/arcgis/rest/services/SEE/H2_PROJETOS_BIO/MapServer/1,2,1,14,21,1,2
