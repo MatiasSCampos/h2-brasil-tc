@@ -1,0 +1,111 @@
+﻿id_localizacao,pais,estado_regiao,cidade_porto_hub,localizacao_bruta,latitude,longitude
+1,Brasil,,1,Rio de Janeiro,-22.80636805256965,-43.2013213433388
+2,Brasil,,2,Porto de Pecém-CE,-3.55540494028665,-38.81777038405763
+3,Brasil,,3,Suape-PE,-8.388264552757532,-34.97446112054262
+4,Brasil,,4,Espírito Santo,-21.22493874037877,-40.94713110374936
+5,Brasil,,5,São Paulo,-23.92275216496305,-46.32925354781709
+6,Brasil,,6,Itajubá-MG,-22.4136864732466,-45.4479010058999
+7,Brasil,,6,Itumbiara-GO,-18.41157483765836,-49.10638178888905
+8,Brasil,,7,Fortaleza,-3.771693138766119,-38.52396691155946
+9,Brasil,,8,Cubatão-SP,-21.41951167077739,-48.28778055566965
+10,Brasil,,9,Camaçari-BA,-12.67673344665364,-38.31659555389216
+11,Brasil,,10,Angra-RJ,-23.00802656465528,-44.45710046423818
+12,Brasil,,11,Porto do Açu-RJ,-21.82821916622549,-41.00621354423714
+13,Brasil,,12,Porto de Pecém-CE,-3.557735300381006,-38.84456952514274
+14,Brasil,,13,Porto de Pecém-CE,-3.57876179,-38.835363058
+15,Brasil,,14,PortoPorto de Pecém-CE,-3.577543361183037,-38.80844894368021
+16,Brasil,,15,Porto do Rio Grande,-32.1364945896597,-52.105640147266
+17,Brasil,,16,Porto do Rio Grande,-32.12385370306623,-52.105640147266
+18,Brasil,,17,Porto do Rio Grande,-32.11359227747859,-52.10638372883032
+19,Brasil,,18,Touros,-5.198285097680817,-35.45815340690649
+20,Brasil,,0,Porto de Pecém-CE,,
+21,Brasil,,0,Porto de Pecém-CE,-3.586864801560464,-38.85389096552016
+22,Brasil,,0,Porto de Suape,-8.408862356903443,-34.97880568799163
+23,Brasil,,0,USP-SP,-23.55546306891398,-46.73142688375255
+24,Brasil,,0,Curitibas - P|R,-25.432348597859,-49.34084177722431
+25,Brasil,,0,Uberaba-MG,-19.99291991698663,-47.88586183426314
+26,Brasil,,0,Belo Monte-PA,-3.43731298199998,-51.94740018899995
+27,Brasil,,0,Parnaíba-PI,-2.876555290772751,-41.70725028366178
+28,Brasil,,0, ,-21.43553508610669,-41.01914361156993
+29,Brasil,,0,"Rua Oclides Schaffer, S/N, Distrito Industrial",-28.55749,-52.586037
+30,Brasil,,0,"Estrada Trigo, S/N, Sao Jose, Passo Fundo",-28.214863,-52.387761
+31,Brasil,,0,Rio de \Janeiro,-22.80636805256965,-43.2013213433388
+32,Brasil,,0,Porto de Pecém,-3.55540494028665,-38.81777038405763
+33,Brasil,,0,Suape,-8.388264552757532,-34.97446112054262
+34,Brasil,,0,Espírito Santo,-21.22493874037877,-40.94713110374936
+35,Brasil,,0,São Paulo,-23.92275216496305,-46.32925354781709
+36,Brasil,,0,Minas Gerais,-22.4136864732466,-45.4479010058999
+37,Brasil,,0,Porto do Pecém,-18.41157483765836,-49.10638178888905
+38,Brasil,,0,Fortaleza,-3.771693138766119,-38.52396691155946
+39,Brasil,,0,Interior de SP,-21.41951167077739,-48.28778055566965
+40,Brasil,,0,Camaçari,-12.67673344665364,-38.31659555389216
+41,Brasil,,0,Angra,-23.00802656465528,-44.45710046423818
+42,Brasil,,0,Porto do Açu,-21.82821916622549,-41.00621354423714
+43,Brasil,,0,Porto de Pecém,-3.557735300381006,-38.84456952514274
+44,Brasil,,0,Porto de Pecém,-3.57876179,-38.835363058
+45,Brasil,,,Aeroporto Santos Dumont - Rio de Janeiro/RJ,,
+46,Brasil,,,Escritório Centra da ANP-Rio de Janeiro/RJ,,
+47,Brasil,,,Sede do Ministério da Fazenda - Brasília/DF,,
+48,Brasil,,,,,
+49,Brasil,,,Escritório Central da ANP - Rio de Janeiro/RJ.,,
+50,Brasil,,,Escritório Central da ANP - Rio de Janeiro/RJ,,
+51,Brasil,,,Escritório Central da ANP - RIo de Janeiro/RJ,,
+52,Brasil,,,Escritório Central - ANP/RJ,,
+53,Brasil,,,Sala da Superintendência,,
+54,Brasil,,,Sala Coordenação,,
+55,Brasil,,,Prodigy hotel Santos Dumont,,
+56,Brasil,,,Escritório Central  da ANP/RJ,,
+57,Brasil,,,Fundação Getúlio Vargas - FGV - Botafogo/Rio de Janeiro/RJ.,,
+58,Brasil,,,Hotel Gran Hyaat,,
+59,Brasil,,,Hotel Gran Hyatt,,
+60,Brasil,,,Local: Escritório Central ANP - Rio de Janeiro / RJ,,
+61,Brasil,,,Local: Escritório Central da ANP - Rio de Janeiro/RJ,,
+62,Brasil,,,Escritório Central ANP - Rio Janeiro- RJ,,
+63,Brasil,,,Escritório Central - ANP/Rio de Janeiro,,
+64,Brasil,,,Escritório Central ANP/RJ,,
+65,Brasil,,,Escritório Central da ANP  - Rio de Janeiro/RJ.,,
+66,Brasil,,,Escritório Central da ANP - Rio de Janeiro - RJ.,,
+67,Brasil,,,Escritório Sede da ANP/CPT/Brasília,,
+68,Brasil,,,Escritório Central ANP/Rio de Janeiro-RJ,,
+69,Brasil,,,Escritório Central da ANP - Rio de Janeiro / RJ,,
+70,Brasil,,,Aeroporto Rio de Janeiro,,
+71,Brasil,,,Escritório Central - ANP,,
+72,Brasil,,,Aeroporto do Galeão - Rio de Janeiro/RJ,,
+73,Brasil,,,ANP/RJ,,
+74,Brasil,,,Brasília / DF,,
+75,Brasil,,,Escritório Central da ANP-Rio de Janeiro/RJ,,
+76,Brasil,,,Escritório Regional da ANP – São Paulo/SP,,
+77,Brasil,,,Escritório Regional da ANP - Salvador/BA,,
+78,Brasil,,,Não Informado.,,
+79,Brasil,,,Escritório Regional da ANP - Belo Horizonte/MG,,
+80,Brasil,,,Escritório ANP São Paulo.,,
+81,Brasil,,,Fundação Getúlio Vargas - FGV,,
+82,Brasil,,,Local: Hotel Grand Hyatt - Rio de Janeiro/RJ  ,,
+83,Brasil,,,ANP - Escritório Central,,
+84,Brasil,,,Hotel Grand Hyatt - Rio de Janeiro/RJ,,
+85,Brasil,,,Escritório Urca ANP - Rio de Janeiro/RJ,,
+86,Brasil,,,Escritório da ANP Urca - Rio de Janeiro/RJ ,,
+87,Brasil,,,Escritório Central da ANP – Rio de Janeiro/RJ ,,
+88,Brasil,,,"Auditório do Hotel London - Rua Lameira Bittencourt, n° 41- Centro- Santarém/PA",,
+89,Brasil,,,"ANP- Av. Rio Branco, 65 - 21º andar (Sala B) - Centro/RJ",,
+90,Brasil,,,"ANP- Rio de Janeiro- Av. Rio Branco 65, sala 1 e 2, 14° andar, Centro-RJ",,
+91,Brasil,,,"Hotel Atlântico Búzios - Estr. da Usina Velha, 294 - Morro do Humaitá, Búzios - RJ, 28950-000",,
+92,Brasil,,,Escritório Central da ANP/RJ,,
+93,Brasil,,,ANP,,
+94,Brasil,,,Escritório Central da ANP - Rio de Janeiro/RJ ,,
+95,Brasil,,,Escritório Central da ANP no Rio de Janeiro/RJ,,
+96,Brasil,,,"Sede-ANP-RJ, 16° andar",,
+97,Brasil,,,Escritório Central da ANP / Rio de Janeiro/RJ,,
+98,Brasil,,,Escritório Central/RJ,,
+99,Brasil,,,ANP: Escritório Central-RJ,,
+100,Brasil,,,ANP: Escritório Central - RJ,,
+101,Brasil,,,Hotel Grand Hyatt- Barra - RJ,,
+102,Brasil,,,Escritório Sede da ANP/RJ,,
+103,Brasil,,,Salvador/BA,,
+104,Brasil,,,Home office. ,,
+105,Brasil,,, Escritório Central da ANP - Auditório 13º andar,,
+106,Brasil,,,Por videoconferência,,
+107,Brasil,,,Rio de Janeiro/RJ,,
+108,Brasil,,,Home Office,,
+109,Brasil,,,Rio de Janeiro - RJ,,
+110,Brasil,,,Por videoconferência.,,

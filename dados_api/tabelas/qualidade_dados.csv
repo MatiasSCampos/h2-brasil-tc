@@ -1,0 +1,11 @@
+﻿indice,nome_projeto,campo,valor,problema
+0, UFRJ,capacidade_mw,0,capacidade <= 0 (deveria ser positiva)
+3,Porto Central,capacidade_mw,0,capacidade <= 0 (deveria ser positiva)
+4,Porto de Santos,capacidade_mw,0,capacidade <= 0 (deveria ser positiva)
+7,Neoenergia,capacidade_mw,0,capacidade <= 0 (deveria ser positiva)
+14,Enerfin,capacidade_mw,0,capacidade <= 0 (deveria ser positiva)
+15,White Martins,capacidade_mw,0,capacidade <= 0 (deveria ser positiva)
+16,Neoenergia,capacidade_mw,0,capacidade <= 0 (deveria ser positiva)
+17,Enterprize Energy,capacidade_mw,0,capacidade <= 0 (deveria ser positiva)
+21,Copel,capacidade_mw,0,capacidade <= 0 (deveria ser positiva)
+25,Porto Norte Fluminense,capacidade_mw,0,capacidade <= 0 (deveria ser positiva)
