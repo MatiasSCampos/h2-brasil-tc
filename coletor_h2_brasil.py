@@ -1287,12 +1287,24 @@ def gerar_base_h2v_multifonte():
         # tabela como "Resíduo por município" (milhares de linhas) inflava a
         # base inteira, já que suas colunas (Município/Local/UF) batem por
         # acidente com os apelidos de localização de projeto. Só entram aqui
-        # as camadas da EPE cujo nome CONTÉM "projetos" (ex.: "Projetos",
-        # "Projetos_Onshore", "Projetos_Offshore") — as demais fontes (IEA,
-        # ANEEL, EIA, HTML institucional) não são afetadas por esse filtro,
-        # pois presumivelmente já são listagens de projetos.
+        # as camadas da EPE cujo nome CONTÉM "projetos" — as demais fontes
+        # (IEA, ANEEL, EIA, HTML institucional) não são afetadas por esse
+        # filtro, pois presumivelmente já são listagens de projetos.
+        #
+        # EXCEÇÃO: "Projetos_Onshore"/"Projetos_Offshore" têm "projetos" no
+        # nome mas, apesar disso, NÃO são uma lista curada de empreendimentos
+        # — são uma grade de PONTOS DE POTENCIAL TÉCNICO (centenas/milhares
+        # de locais candidatos avaliados pela EPE, do painel "Potencial de
+        # recursos para a produção..."), quase sem nenhum campo preenchido
+        # (sem tecnologia, investimento, status etc.) e 100% sem sobreposição
+        # com a base H2_PROJETOS real. Tratamos como dado de referência
+        # também (continua disponível bruto em dados_h2/brutos/, só não
+        # entra na base consolidada de projetos).
         if item.fonte.startswith("EPE - "):
-            if "projetos" not in normalizar_texto(_nome_da_camada(item.fonte)):
+            nome_camada_norm = normalizar_texto(_nome_da_camada(item.fonte))
+            nome_servico_norm = normalizar_texto(item.fonte.split(" - ")[1]) if " - " in item.fonte else ""
+            eh_grade_potencial = nome_servico_norm.startswith("projetos_onshore") or nome_servico_norm.startswith("projetos_offshore")
+            if "projetos" not in nome_camada_norm or eh_grade_potencial:
                 ignorados_infra += 1
                 continue
         caminho=Path(item.caminho_local)
@@ -1366,6 +1378,72 @@ def gerar_modelo_estrela_h2v(df):
         fato.to_excel(w,sheet_name='Fato_Projetos_H2V',index=False); fontes.to_excel(w,sheet_name='Dim_Fontes',index=False); estados.to_excel(w,sheet_name='Dim_Estados',index=False); empresas.to_excel(w,sheet_name='Dim_Empresas',index=False); status.to_excel(w,sheet_name='Dim_Status',index=False); tecnologias.to_excel(w,sheet_name='Dim_Tecnologias',index=False); aplicacoes.to_excel(w,sheet_name='Dim_Aplicacoes',index=False); localizacoes.to_excel(w,sheet_name='Dim_Localizacao',index=False)
     log.info(f'  Modelo estrela gerado em {pasta}/')
 
+
+# --------------------------------------------------------------------------
+# TABELA DE POTENCIAL TÉCNICO DE H2 POR USINA (Projetos_Onshore/Offshore)
+# --------------------------------------------------------------------------
+
+# Apelidos das colunas conhecidas dessa camada (confirmados inspecionando o
+# arquivo bruto real: FID, FID_H2_RI, NOME, propriet, potencia, ini_oper,
+# ceg, Pot_H2, fonte...). Colunas não mapeadas aqui são mantidas com o nome
+# original — a lista pode não estar 100% completa, então nada se perde.
+APELIDOS_POTENCIAL_EOLICO = {
+    "NOME": "nome_usina",
+    "propriet": "proprietario",
+    "potencia": "potencia_instalada_kw",
+    "ini_oper": "ano_inicio_operacao",
+    "ceg": "codigo_ceg_aneel",
+    "Pot_H2": "potencial_h2_t_ano",
+    "fonte": "fonte_energia",
+    "_latitude": "latitude",
+    "_longitude": "longitude",
+}
+
+
+def gerar_tabela_potencial_tecnico_h2():
+    """As camadas 'Projetos_Onshore'/'Projetos_Offshore' da EPE não são uma
+    lista de projetos de H2 — são o potencial técnico de produção de H2
+    calculado USINA POR USINA (eólica/solar) já existente no Brasil (ex.:
+    'Eólica Chuí VI S.A.' com seu Pot_H2 estimado). Por isso não entram na
+    base de projetos (ver gerar_base_h2v_multifonte), mas são um dado valioso
+    por si só — geram sua própria tabela, exposta como
+    dados_h2/potencial_tecnico_h2_por_usina.xlsx (e, via preparar_dados_api.py,
+    como /tabelas/potencial_tecnico_h2_por_usina na API)."""
+    log.info("== Gerando tabela de potencial técnico de H2 por usina (eólica/solar existente) ==")
+
+    tabelas = []
+    for item in ITENS_ENCONTRADOS:
+        if not item.fonte.startswith("EPE - ") or not item.caminho_local:
+            continue
+        nome_servico_norm = normalizar_texto(item.fonte.split(" - ")[1]) if " - " in item.fonte else ""
+        if not (nome_servico_norm.startswith("projetos_onshore") or nome_servico_norm.startswith("projetos_offshore")):
+            continue
+
+        try:
+            df_bruto = pd.read_excel(item.caminho_local)
+        except Exception as e:
+            log.warning(f"  Não foi possível ler {item.caminho_local}: {e}")
+            continue
+
+        df_bruto = df_bruto.rename(columns=APELIDOS_POTENCIAL_EOLICO)
+        df_bruto["fonte_dado"] = item.fonte
+        df_bruto["origem"] = "onshore" if "onshore" in nome_servico_norm else "offshore"
+        tabelas.append(df_bruto)
+
+    if not tabelas:
+        log.info("  Nenhuma camada de potencial técnico (Projetos_Onshore/Offshore) encontrada nesta execução.")
+        return
+
+    df_final = pd.concat(tabelas, ignore_index=True)
+
+    PASTA_SAIDA.mkdir(parents=True, exist_ok=True)
+    destino_xlsx = PASTA_SAIDA / "potencial_tecnico_h2_por_usina.xlsx"
+    destino_csv = PASTA_SAIDA / "potencial_tecnico_h2_por_usina.csv"
+    df_final.to_excel(destino_xlsx, index=False)
+    df_final.to_csv(destino_csv, index=False, encoding="utf-8-sig")
+
+    log.info(f"  {len(df_final)} usina(s) com potencial técnico de H2 salvas em {destino_xlsx.name}")
+
 # --------------------------------------------------------------------------
 # RESOLUÇÃO DE ENTIDADES — Algoritmo 1 do TCC (blocking + similaridade de
 # Levenshtein) para eliminar duplicatas do mesmo projeto vindo de fontes
@@ -1383,6 +1461,13 @@ LIMIAR_RELATORIO = 0.65
 # Campo usado para "blocking" (Seção 2.2.2, Equação 2): só comparamos pares de
 # registros que caem no mesmo bloco, para não fazer O(n²) comparações à toa.
 CAMPO_BLOCKING = "localizacao_bruta"
+
+# Rede de segurança: se algum bug de coleta inflar um único bloco com milhares
+# de registros (já aconteceu — uma camada "de potencial" sendo confundida com
+# projetos individuais), a comparação par-a-par dentro dele vira O(n²) e pode
+# travar a execução por minutos. Blocos maiores que isso são pulados (com
+# aviso), em vez de travar a execução inteira.
+MAX_REGISTROS_POR_BLOCO = 400
 
 
 def _distancia_levenshtein(a: str, b: str) -> int:
@@ -1481,6 +1566,14 @@ def resolver_entidades(df_padrao: pd.DataFrame):
 
     # 2) Dentro de cada bloco, compara todos os pares (C_bloco da Equação 2)
     for chave_bloco, indices in blocos.items():
+        if len(indices) > MAX_REGISTROS_POR_BLOCO:
+            log.warning(
+                f"  Bloco '{chave_bloco}' tem {len(indices)} registros (> "
+                f"{MAX_REGISTROS_POR_BLOCO}) — pulando a comparação par-a-par "
+                f"nele para evitar travar a execução. Verifique se alguma "
+                f"fonte está inflando esse bloco por engano."
+            )
+            continue
         for a in range(len(indices)):
             for b in range(a + 1, len(indices)):
                 i, j = indices[a], indices[b]
@@ -2138,6 +2231,7 @@ def main():
     # entidades e validações a partir de agora.
     df_h2v = gerar_base_h2v_multifonte()
     gerar_modelo_estrela_h2v(df_h2v)
+    gerar_tabela_potencial_tecnico_h2()
 
     df_dedup = resolver_entidades(df_h2v)
 

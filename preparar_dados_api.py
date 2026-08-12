@@ -49,6 +49,13 @@ TABELAS_MODELO_ESTRELA = {
     "dim_localizacao.csv": "dim_localizacao",
 }
 
+# Tabelas que já ficam prontas em .csv direto na raiz de dados_h2/ (não
+# dentro de uma subpasta) — só copiar pra dados_api/tabelas/.
+TABELAS_RAIZ = {
+    "potencial_tecnico_h2_por_usina.csv": "potencial_tecnico_h2_por_usina",
+}
+
+
 # Relatórios em .xlsx que precisam ser convertidos para .csv (um arquivo de
 # saída por aba relevante)
 RELATORIOS_PARA_CONVERTER = {
@@ -121,12 +128,23 @@ def converter_relatorios():
             log.info(f"Convertido: {nome_tabela}.csv ({len(df)} linha(s))")
 
 
+def copiar_tabelas_raiz():
+    for nome_arquivo, nome_tabela in TABELAS_RAIZ.items():
+        origem = PASTA_COLETOR / nome_arquivo
+        if not origem.exists():
+            continue
+        destino = PASTA_TABELAS / f"{nome_tabela}.csv"
+        shutil.copy2(origem, destino)
+        log.info(f"Copiado: {nome_tabela}.csv")
+
+
 def main():
     PASTA_API.mkdir(parents=True, exist_ok=True)
     PASTA_TABELAS.mkdir(parents=True, exist_ok=True)
 
     copiar_arquivos_principais()
     copiar_modelo_estrela()
+    copiar_tabelas_raiz()
     converter_relatorios()
 
     log.info(f"Pronto. Pastas '{PASTA_API}/' e '{PASTA_TABELAS}/' atualizadas — é isso que deve ir pro git push.")
